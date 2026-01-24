@@ -174,7 +174,64 @@ if (projectGrid) {
 
       if (modalBody) {
         modalBody.innerHTML = "";
-        if (data.embed && data.embed.src) {
+        if (data.dual) {
+          const layout = document.createElement("div");
+          layout.className = "modal-dual";
+
+          const makeColumn = (section) => {
+            const column = document.createElement("div");
+            column.className = "modal-dual__column";
+
+            const header = document.createElement("div");
+            header.className = "modal-dual__header";
+
+            const title = document.createElement("h3");
+            title.textContent = section.title || "";
+            header.appendChild(title);
+
+            const linkRow = document.createElement("div");
+            linkRow.className = "modal-dual__links";
+            (section.links || []).forEach((link) => {
+              if (!link || !link.url || !link.label) {
+                return;
+              }
+              const a = document.createElement("a");
+              a.className = "text-link";
+              a.href = link.url;
+              a.target = "_blank";
+              a.rel = "noreferrer";
+              a.textContent = link.label;
+              linkRow.appendChild(a);
+            });
+            header.appendChild(linkRow);
+
+            column.appendChild(header);
+
+            if (section.image && section.image.src) {
+              const gallery = buildImages([section.image], "modal-gallery modal-gallery--inline");
+              if (gallery) {
+                column.appendChild(gallery);
+              }
+            }
+
+            (section.details || []).forEach((paragraph) => {
+              const p = document.createElement("p");
+              p.innerHTML = renderParagraph(paragraph);
+              column.appendChild(p);
+            });
+
+            return column;
+          };
+
+          const intro = document.createElement("p");
+          intro.className = "modal-dual__intro";
+          intro.innerHTML = renderParagraph(data.dual.intro || "");
+          modalBody.appendChild(intro);
+
+          layout.appendChild(makeColumn(data.dual.left || {}));
+          layout.appendChild(makeColumn(data.dual.right || {}));
+          modalBody.appendChild(layout);
+        } else if (data.embed && data.embed.src) {
           const layout = document.createElement("div");
           layout.className = "modal-layout";
 
@@ -214,6 +271,28 @@ if (projectGrid) {
           layout.appendChild(left);
           layout.appendChild(right);
           modalBody.appendChild(layout);
+
+          const extraEmbeds = Array.isArray(data.extraEmbeds) ? data.extraEmbeds : [];
+          if (extraEmbeds.length > 0) {
+            const wrap = document.createElement("div");
+            wrap.className = "modal-extra-embeds";
+            extraEmbeds.forEach((embed) => {
+              if (!embed || !embed.src) {
+                return;
+              }
+              const frame = document.createElement("iframe");
+              frame.className = "modal-embed";
+              frame.src = embed.src;
+              frame.title = embed.title || "Embedded content";
+              frame.loading = "lazy";
+              frame.allowFullscreen = true;
+              frame.referrerPolicy = "no-referrer";
+              wrap.appendChild(frame);
+            });
+            if (wrap.children.length > 0) {
+              modalBody.appendChild(wrap);
+            }
+          }
         } else {
           const imageList = data.images || (data.image ? [data.image] : []);
           if (imageList.length > 0 && data.imagePlacement === "inline") {

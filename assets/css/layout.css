@@ -128,6 +128,11 @@ body.modal-open .site-header {
   display: none;
 }
 
+body.modal-open .page {
+  animation: none;
+  transform: none;
+}
+
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
