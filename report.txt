@@ -13,10 +13,6 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 - **Link** – https://github.com/BanaanKiamanesh/Arduino-NRF24L01-Based-Radio-PCB  
 - **Summary** – Provides **Gerber files and schematics** for building a low‑cost radio transmitter/receiver using an **Arduino** and **NRF24L01** transceiver modules.  The design targets drone or RC applications and is complemented by software examples.  It aims to help makers fabricate a custom radio PCB using KiCad and quickly deploy a reliable wireless linkhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22name%22%3A%20%22Arduino,nRF24L01%20Based%20Transmitter%22%2C%20%22fork%22%3A%20false.
 
-### AutonomousVehicleControlBeginnersGuide
-- **Link** – https://github.com/BanaanKiamanesh/AutonomousVehicleControlBeginnersGuide  
-- **Summary** – A collection of **Python** examples and notes that teach basic algorithms used in autonomous vehicles.  The repository explores localisation (e.g., EKF/UKF/PF), mapping and SLAM, path‑planning, path‑tracking, and perception.  Each topic includes simulation code and explanatory comments, making the repo suitable for students wanting a hands‑on introduction to self‑driving car controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,the%20software%20architectures%20for%20beginners.
-
 ### BBO‑python
 - **Link** – https://github.com/BanaanKiamanesh/BBO-python  
 - **Summary** – Implements the **Biogeography‑Based Optimisation** (BBO) algorithm in Python.  BBO is a population‑based meta‑heuristic inspired by the distribution of species on islands.  This repo gives a clear implementation and small examples so users can apply BBO to optimisation problemshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FBBO,Based%20Optimization%20Algorithm.
@@ -24,10 +20,6 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 ### BNO055‑RaspberryPi
 - **Link** – https://github.com/BanaanKiamanesh/BNO055-RaspberryPi  
 - **Summary** – A **C++** library for the Bosch **BNO055** nine‑axis inertial measurement unit (IMU) on the Raspberry Pi using the **WiringPi** library.  It provides functions for sensor initialisation, calibration and reading fused orientation/acceleration datahttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FBNO055,Pi%20Library%21%22%2C%20%22fork%22%3A%20false.  The repo helps robotics projects needing accurate attitude estimation.
-
-### Course‑Materials
-- **Link** – https://github.com/BanaanKiamanesh/Course-Materials  
-- **Summary** – Hosts materials for courses taught or taken by Banaan Kiamanesh.  It includes lecture slides, assignments and example code covering topics in control systems, robotics and programming.  Students can follow along and reproduce the demonstrationshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FCourse,false.
 
 ### Distributed‑Localization
 - **Link** – https://github.com/BanaanKiamanesh/Distributed-Localization  
@@ -71,7 +63,7 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 
 ### Kinova‑Gen3‑Control
 - **Link** – https://github.com/BanaanKiamanesh/Kinova-Gen3-Control  
-- **Summary** – Supplies a MATLAB/Simulink framework for controlling the **Kinova Gen3** 7‑DoF manipulator.  It computes the robot dynamics via the author’s **ManiDyn** toolbox and implements controllers ranging from PD with gravity compensation to sliding‑mode and robust inverse‑dynamics controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FKinova,Gen3%20Manipulator.
+- **Summary** - Developed for the Robotics and Control 1 course, this project provides a comprehensive MATLAB/Simulink framework for controlling the Kinova Gen3 7-DoF manipulator. Dynamics are computed through the ManiDyn toolbox (forward kinematics, Jacobians, mass matrix, Coriolis, gravity, and system ODEs), and the repo includes URDF descriptions, a Simscape Multibody template, MEX functions, and controllers such as PD with gravity compensation, PID, feedback linearization, inverse dynamics, sliding mode, and robust inverse dynamics control. It was developed in collaboration with Ali Rezaei.
 
 ### MandelBulb
 - **Link** – https://github.com/BanaanKiamanesh/MandelBulb  
@@ -79,7 +71,7 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 
 ### ManiDyn
 - **Link** – https://github.com/BanaanKiamanesh/ManiDyn  
-- **Summary** – A MATLAB toolbox that performs **symbolic modelling of serial‑link manipulators**.  It uses symbolic computation to derive dynamic equations such as inertia matrices and Coriolis terms, and it supports code generation for controllershttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,link%20robot%20Manipulators.%22%2C%20%22fork%22%3A%20false.  ManiDyn is used in the Kinova‑Gen3‑Control project.
+- **Summary** - Developed for the Robotics and Control 1 course, ManiDyn is an Euler-Lagrange modelling toolbox for serial manipulators. It derives equations of motion and simulates manipulator behavior under multiple control strategies, providing a foundation for studying how dynamics affect motion and stability. The project was developed in collaboration with Ali Rezaei.
 
 ### Manual‑Rpeak‑Selection‑Plotter
 - **Link** – https://github.com/BanaanKiamanesh/Manual-Rpeak-Selection-Plotter  
@@ -91,11 +83,7 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 
 ### Minimum‑Grad
 - **Link** – https://github.com/BanaanKiamanesh/Minimum-Grad  
-- **Summary** – A tiny **autodifferentiation framework** built in pure MATLAB as an educational tool.  Inspired by micrograd and teenygrad, it includes a tensor engine, common activation functions and simple optimisershttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FMinimum,pytorch%20implemented%20in%20pure%20MATLAB.  It helps users understand how back‑propagation works under the hood.
-
-### MVector
-- **Link** – https://github.com/BanaanKiamanesh/MVector  
-- **Summary** – A MATLAB implementation of the **PVector** class from the Processing framework, generated by AI.  It provides vector operations useful for graphics and simulation taskshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,from%20Processing%20Frameworks.
+- **Summary** - A MATLAB automatic differentiation system for educational use, inspired by Andrej Karpathy's micrograd and George Hotz's teenygrad. It centers on a Tensor class with basic operations and backpropagation, plus activation functions, optimizers, and example training scripts to demonstrate small neural networks. The code prioritizes clarity and readability over production use.
 
 ### NN‑Obs‑Id‑MIMO‑Nonlinear‑Systems
 - **Link** – https://github.com/BanaanKiamanesh/NN-Obs-Id-MIMO-Nonlinear-Systems  
@@ -121,13 +109,9 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 - **Link** – https://github.com/BanaanKiamanesh/Raspi-Kapta  
 - **Summary** – A modular **flight‑controller platform** based on Raspberry Pi.  It reads inputs via an Arduino receiver module, fuses attitude using a BNO055 IMU, drives motors through a PCA9685 and implements an **anti‑windup PID** controller.  The project includes calibration tools and test scriptshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FRaspi,false.
 
-### RL
-- **Link** – https://github.com/BanaanKiamanesh/RL  
-- **Summary** – An educational repository accompanying a reinforcement‑learning course at the University of Padova.  It contains MATLAB code implementing classic RL algorithms and examples, aiming to teach the fundamentals of RLhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,false.
-
 ### Self‑and‑Event‑Triggered‑Control
 - **Link** – https://github.com/BanaanKiamanesh/Self-and-Event-Triggered-Control  
-- **Summary** – Explores **self‑triggered** and **event‑triggered** control strategies.  The MATLAB code implements two research papers summarised in the README and shows how triggering conditions can reduce actuation and communication requirements while maintaining stabilityhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSelf,2%20papers%20in%20the%20readme.
+- **Summary** - Implements event-triggered and self-triggered control based on foundational CDC 2012 and TAC 2010 studies. The work frames computational motivation for reducing control updates in MPC/optimal control while enabling intermittent actuation and robust behavior under disturbance and noise.
 
 ### Shilling
 - **Link** – https://github.com/BanaanKiamanesh/Shilling  
@@ -145,17 +129,9 @@ Below is a consolidated list of all public repositories under **Banaan Kiamanes
 - **Link** – https://github.com/BanaanKiamanesh/SMC-Bible  
 - **Summary** – Implements many problems from the **Sliding Mode Control** chapter of Slotine & Li’s *Applied Nonlinear Control*.  The MATLAB scripts provide worked examples of reaching laws, switching surfaces and robustness analysishttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSMC,Linear%20Control%20by%20JJE%20Slotine.
 
-### SOSTOOLS (fork)
-- **Link** – https://github.com/BanaanKiamanesh/SOSTOOLS  
-- **Summary** – A fork of the **SOSTOOLS** MATLAB toolbox, which is used to formulate and solve **sums‑of‑squares optimisation** problems.  The toolbox transforms polynomial inequalities into semidefinite programmes and interfaces with solvershttps://api.github.com/repos/BanaanKiamanesh/SOSTOOLS#:~:text=,SOS%29%20optimization%20programs.  This repository mainly mirrors the upstream project.
-
 ### SSVEP‑Blink‑LED
 - **Link** – https://github.com/BanaanKiamanesh/SSVEP-Blink-LED  
 - **Summary** – Provides a simple circuit design and scripts for **steady‑state visually evoked potential (SSVEP) stimulation**.  The circuit uses programmable LED blinkers to create flicker at desired frequencies for brain‑computer‑interface experimentshttps://api.github.com/repos/BanaanKiamanesh/SSVEP-Blink-LED#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSSVEP,of%20LEDs%20and%20Desired%20Frequencies.
-
-### Thesis
-- **Link** – https://github.com/BanaanKiamanesh/Thesis  
-- **Summary** – A comprehensive repository implementing everything taught in the **Robotics and Control 2** course at the University of Padova.  It includes assignments, code examples and experiments summarising the course materialhttps://api.github.com/repos/BanaanKiamanesh/Thesis#:~:text=,university%20of%20Padova%2C%20Nov%202025.
 
 ### Ultimate‑BCI‑Design
 - **Link** – https://github.com/BanaanKiamanesh/Ultimate-BCI-Design  

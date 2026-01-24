@@ -3,14 +3,10 @@ Projects and Posts by Banaan Kiamanesh
 
 GitHub repositories (with update dates):
 
-- RL – Updated 19 Jan 2026 – https://github.com/BanaanKiamanesh/RLhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
-- Autonomous Vehicle Control Beginners Guide – Updated 19 Jan 2026 – https://github.com/BanaanKiamanesh/AutonomousVehicleControlBeginnersGuidehttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
-- Thesis – Updated 2 Jan 2026 – https://github.com/BanaanKiamanesh/Thesishttps://github.com/BanaanKiamanesh#:~:text=the%20software%20architectures%20for%20beginners
 - WayPoint – Updated 2 Jan 2026 – https://github.com/BanaanKiamanesh/WayPointhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
-- MVector – Updated 19 Nov 2025 – https://github.com/BanaanKiamanesh/MVectorhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
-- ManiDyn – Updated 30 Nov 2025 – https://github.com/BanaanKiamanesh/ManiDynhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222025,06T09%3A08%3A07Z%22%2C%20%22git_url%22%3A%20%22git%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FManiDyn.git
+- ManiDyn - Updated 1 Jun 2025 - https://github.com/BanaanKiamanesh/ManiDyn
 - Minimum‑Grad – Updated 24 Aug 2025 – https://github.com/BanaanKiamanesh/Minimum-Gradhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
-- Kinova‑Gen3‑Control – Updated 7 Aug 2025 – https://github.com/BanaanKiamanesh/Kinova-Gen3-Controlhttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20Minimum,Public
+- Kinova Gen3 Control - Updated 1 Jun 2025 - https://github.com/BanaanKiamanesh/Kinova-Gen3-Control
 - Flocking – Updated 21 Oct 2025 – https://github.com/BanaanKiamanesh/Flockinghttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
 - JigSaw‑OpenCV – Updated 31 Aug 2025 – https://github.com/BanaanKiamanesh/JigSaw-OpenCVhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
 - Optimization4ML – Updated 25 Aug 2025 – https://github.com/BanaanKiamanesh/Optimization4MLhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
@@ -27,7 +23,6 @@ GitHub repositories (with update dates):
 - Self‑and‑Event‑Triggered‑Control – Updated 22 Oct 2025 – https://github.com/BanaanKiamanesh/Self-and-Event-Triggered-Controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222025,18T18%3A14%3A19Z
 - SIS‑Param‑Estim – Updated 16 Jun 2025 – https://github.com/BanaanKiamanesh/SIS-Param-Estimhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
 - Shilling – Updated 16 Jul 2025 – https://github.com/BanaanKiamanesh/Shillinghttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
-- Course‑Materials – Updated 22 May 2024 – https://github.com/BanaanKiamanesh/Course-Materialshttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20SMC,Public
 - DS‑Algo‑101 – Updated 17 Sep 2024 – https://github.com/BanaanKiamanesh/DS-Algo-101https://github.com/BanaanKiamanesh#:~:text=MATLAB%20%205%20%20,140%20Updated%20Apr%2018%2C%202025
 - SMC‑Bible – Updated 17 Aug 2024 – https://github.com/BanaanKiamanesh/SMC-Biblehttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
 - NN‑Obs‑Id‑MIMO‑Nonlinear‑Systems – Updated 9 Aug 2024 – https://github.com/BanaanKiamanesh/NN-Obs-Id-MIMO-Nonlinear-Systemshttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20DS,Public
