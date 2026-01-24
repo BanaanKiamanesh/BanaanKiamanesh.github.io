@@ -13,6 +13,16 @@
   <link rel="stylesheet" href="assets/css/layout.css" />
   <link rel="stylesheet" href="assets/css/components.css" />
   <link rel="stylesheet" href="assets/css/animations.css" />
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+      },
+      svg: { fontCache: "global" },
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -64,8 +74,9 @@
   <div class="project-actions">
     <button class="project-open" type="button">View details</button>
   </div>
-  <script type="application/json" class="project-data">{"title": "WayPoint", "year": "2026", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}], "summary": "A browser-based waypoint mission planner for DJI drones.", "details": ["A browser-based waypoint mission planner for DJI drones. Built with JavaScript, it allows users to design and download waypoint missions for the DJI Fly application in a lightweight web interface.", "WayPoint is a free, waypoint planner for DJI Fly missions. Build flight plans in the browser, fine tune every waypoint, and export DJI-compatible KMZ files without a backend. Requires the DJI Waypoint Flight feature on your aircraft."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/WayPoint"}]}</script>
-</article><article class="card project-card" data-tags="manipulator,control" data-updated="2025-06-01">
+  <script type="application/json" class="project-data">{"title": "WayPoint", "year": "2026", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}], "summary": "A browser-based waypoint mission planner for DJI drones.", "details": ["**WayPoint** is a mission planning tool to free DJI pilots from costly or server-bound software. The application is a static website that you load in a browser; all calculations happen **client-side**, so mission files never leave your computer. It allows you to search for a location, add waypoints on a map or generate them from geometric shapes, and tailor each point with altitude, speed, heading and gimbal settings. The interface is designed for fast editing: you can click to add or drag to reposition waypoints and reorder them in a list. This **privacy-first** approach means you retain control of your data, and there is no need to create accounts or rely on any server.", "Beyond simple point placement, the tool includes a suite of mapping-oriented features. Users can draw lines, polygons or ellipses, set spacing and resolution, and even activate an image-overlap mode that automatically creates photo waypoints with the desired overlap for survey missions. Advanced controls allow batch editing of selected waypoints, rotating or nudging selections, reversing flight order, correcting for terrain altitude and choosing whether the aircraft hovers, returns home or lands at the end. Missions can be exported as **DJI-compatible KMZ, KML or CSV** files for a range of **DJI Fly-enabled** drones. In a demonstration over **Prato della Valle** in Padova, the ellipse tool was used to generate evenly spaced rings that circled the square, with gimbal and overlap settings tuned for mapping, illustrating how WayPoint streamlines complex survey flights while keeping the pilot in full control."], "links": [{"label": "Try WayPoint!", "url": "https://banaankiamanesh.github.io/WayPoint/", "icon": "assets/images/project_thumbnails/waypoint_logo.png"}, {"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/WayPoint/"}, {"label": "LinkedIn", "url": "https://www.linkedin.com/posts/banaankiamanesh_dji-drones-mapping-activity-7413582282956980224-1U2P?utm_source=share&utm_medium=member_desktop&rcm=ACoAACfPOcAB3164RiWMC6PFxasGeyRv3Dap478"}], "images": [{"src": "assets/images/project_thumbnails/waypoint_preview.png", "alt": "WayPoint preview"}], "imagePlacement": "inline", "titleLink": "https://banaankiamanesh.github.io/WayPoint/"}</script>
+</article>
+<article class="card project-card" data-tags="manipulator,control" data-updated="2025-06-01">
   <div class="project-header">
     <h3>ManiDyn</h3>
     <span class="project-date">2025</span>
@@ -75,8 +86,9 @@
   <div class="project-actions">
     <button class="project-open" type="button">View details</button>
   </div>
-  <script type="application/json" class="project-data">{"title": "ManiDyn", "year": "2025", "tags": [{"id": "manipulator", "label": "Manipulators"}, {"id": "control", "label": "Control Theory"}], "summary": "Euler-Lagrange modelling toolbox for serial manipulators, built for Robotics and Control 1.", "details": ["This project was developed as part of the Robotics and Control 1 course, focusing on the dynamic modeling and control of robotic manipulators. The implementation derives equations of motion for different robotic arms using methods such as the Lagrangian formulation, and then simulates their behavior under various control strategies.", "The project provides a foundation for understanding how manipulator dynamics influence motion and stability, and demonstrates practical applications of robotics, control theory, and simulation in analyzing and testing robot arm performance. It was developed in collaboration with Ali Rezaei."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/ManiDyn"}, {"label": "Collaborator", "url": "https://github.com/AliiRezaei"}], "image": {"src": "assets/images/project_thumbnails/ManiDyn.png", "alt": "ManiDyn toolbox overview"}, "embed": {"src": "https://www.linkedin.com/embed/feed/update/urn:li:share:7354052029750681600", "height": 620, "width": 504, "title": "LinkedIn post"}}</script>
-</article><article class="card project-card" data-tags="control" data-updated="2025-10-22">
+  <script type="application/json" class="project-data">{"title": "ManiDyn", "year": "2025", "tags": [{"id": "manipulator", "label": "Manipulators"}, {"id": "control", "label": "Control Theory"}], "summary": "Euler-Lagrange modelling toolbox for serial manipulators, built for Robotics and Control 1.", "details": ["This project was developed as part of the Robotics and Control 1 course, focusing on the dynamic modeling and control of robotic manipulators. The implementation derives equations of motion for different robotic arms using methods such as the Lagrangian formulation, and then simulates their behavior under various control strategies.", "This project is done in collaboration with [Ali Rezaei](https://github.com/AliiRezaei)."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/ManiDyn"}], "image": {"src": "assets/images/project_thumbnails/ManiDyn.png", "alt": "ManiDyn toolbox overview"}, "embed": {"src": "https://www.linkedin.com/embed/feed/update/urn:li:share:7354052029750681600", "height": 620, "width": 504, "title": "LinkedIn post"}}</script>
+</article>
+<article class="card project-card" data-tags="control" data-updated="2025-10-22">
   <div class="project-header">
     <h3>Self-and-Event-Triggered-Control</h3>
     <span class="project-date">2025</span>
@@ -87,29 +99,20 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Self-and-Event-Triggered-Control", "year": "2025", "tags": [{"id": "control", "label": "Control Theory"}], "summary": "Event- and self-triggered control implementations based on foundational CDC 2012 and TAC 2010 studies.", "details": ["The main problems with **optimal control** and **MPC** are their real-time implementation. They require a significant amount of computation, which leads to unnecessarily expensive hardware that is not worth the performance gain. Obviously, we only do this when we have no other choice.", "This was the case until the early 2000s when the visionary idea of **Event-Triggered** and **Self-Triggered Control** emerged. The concept is that we only apply the control action/input when necessary, avoiding the periodic calculation and application of the control signal.", "In the **Event-Triggered Control** strategy, the controller is applied based on a threshold created by the system states and the tracking error. On the other hand, in **Self-Triggered Control**, the control action is applied by predicting and scheduling the time when the control action needs to be applied.", "Now, let's delve a little deeper. In any control system application, what are the main computations involved? First, **state estimation**, then **control action**.", "At first glance, since the largest computation in the system is the state estimation (which involves complex filtering processes like **sensor fusion**, **visual odometry**, or any other estimation process based on sensory inputs), we might think these methods are useless because we cannot stop the estimation process anyway. Since most linear and even many nonlinear control strategies require relatively small computations.", "However, the value of the proposed methods lies in two main areas: (1) applying **MPC/optimal controllers** on cheaper setups, where we solve an optimization problem in each control step and fewer steps mean significantly fewer computation; (2) enabling the use of **low-bandwidth actuators** since control commands are sent only intermittently.", "Thinking about these points excited me. So, I read and implemented the following papers. I highly recommend readers to give them a shot.", "**References.**", "[1] W. P. M. H. Heemels, K. H. Johansson, and P. Tabuada, \"An Introduction to Event-Triggered and Self-Triggered Control,\" in Proc. IEEE Conf. Decision Control (CDC), 2012, pp. 3270-3285.", "[2] A. Anta and P. Tabuada, \"To Sample or Not to Sample: Self-Triggered Control for Nonlinear Systems,\" IEEE Trans. Autom. Control, vol. 55, no. 9, pp. 2030-2042, Sep. 2010.", "As shown in the results, the method is effective even in the presence of extreme disturbance and noise."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Self-and-Event-Triggered-Control"}, {"label": "LinkedIn", "url": "https://www.linkedin.com/posts/banaankiamanesh_controltheory-matlab-dynamicalsystems-activity-7319071464098328576-rWEt?utm_source=share&utm_medium=member_desktop&rcm=ACoAACfPOcAB3164RiWMC6PFxasGeyRv3Dap478"}], "images": [{"src": "assets/images/project_thumbnails/selfeventtrig1.png", "alt": "Self-triggered and event-triggered control references"}, {"src": "assets/images/project_thumbnails/selfeventtrig2.png", "alt": "Event-triggered and self-triggered control notes"}]}</script>
-</article><article class="card project-card" data-tags="multi-agent" data-updated="2025-10-21">
+</article>
+<article class="card project-card" data-tags="multi-agent" data-updated="2024-09-01">
   <div class="project-header">
     <h3>Flocking</h3>
-    <span class="project-date">2025</span>
+    <span class="project-date">2024</span>
   </div>
-  <p class="project-summary">Implements flocking behaviours using both the Olfati-Saber algorithm and classic Boids rules.</p>
+  <p class="project-summary">MATLAB simulation suite for Olfati-Saber flocking algorithms and the Boids model, with tracking and obstacle avoidance.</p>
   <div class="tag-row"><span class="tag" data-tag="multi-agent">Multi-Agent</span></div>
   <div class="project-actions">
     <button class="project-open" type="button">View details</button>
   </div>
-  <script type="application/json" class="project-data">{"title": "Flocking", "year": "2025", "tags": [{"id": "multi-agent", "label": "Multi-Agent"}], "summary": "Implements flocking behaviours using both the Olfati-Saber algorithm and classic Boids rules.", "details": ["Implements flocking behaviours using both the Olfati-Saber algorithm and classic Boids rules. The code simulates how multiple agents can achieve emergent cohesive motion using local interactions.", "MATLAB implementation of flocking for multi-agent systems, including all of Olfati-Saber's algorithms (1-3) and Boids Flocking."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Flocking"}]}</script>
-</article><article class="card project-card" data-tags="control,embedded" data-updated="2025-10-07">
-  <div class="project-header">
-    <h3>Anti-Windup-PID-Controller</h3>
-    <span class="project-date">2025</span>
-  </div>
-  <p class="project-summary">A small C++ library implementing an anti-windup PID controller.</p>
-  <div class="tag-row"><span class="tag" data-tag="embedded">Embedded</span><span class="tag" data-tag="control">Control Theory</span></div>
-  <div class="project-actions">
-    <button class="project-open" type="button">View details</button>
-  </div>
-  <script type="application/json" class="project-data">{"title": "Anti-Windup-PID-Controller", "year": "2025", "tags": [{"id": "control", "label": "Control Theory"}, {"id": "embedded", "label": "Embedded"}], "summary": "A small C++ library implementing an anti-windup PID controller.", "details": ["A small C++ library implementing an anti-windup PID controller. Anti-windup techniques prevent integrator windup when actuators saturate. The library offers a configurable controller that can be integrated into embedded projects such as flight controllers or robotics applications. It is useful for hobbyists needing a lightweight PID implementation that handles saturation gracefully."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Anti-Windup-PID-Controller"}]}</script>
-</article><article class="card project-card" data-tags="embedded" data-updated="2025-09-25">
+  <script type="application/json" class="project-data">{"title": "Flocking", "year": "2024", "tags": [{"id": "multi-agent", "label": "Multi-Agent"}], "summary": "MATLAB simulation suite for Olfati-Saber flocking algorithms and the Boids model, with tracking and obstacle avoidance.", "details": ["Flocking Algorithms Simulation Project\nMotivation and overview\nFlocking is a coordination mechanism inspired by the collective behaviour of birds, fish and other biological\ngroups. In control-systems literature flocking refers to distributed control laws that enable a group of\nagents to maintain formation while moving coherently. The project is a MATLAB implementation of several\nflocking algorithms for multi-agent systems. It includes all three algorithms proposed by R. Olfati-Saber\nfor stabilising the distances between agents and one implementation of the Boids model originally\nintroduced by C. W. Reynolds. The code produces graphical simulations and videos and is intended for\nresearchers and students interested in multi-agent dynamics, distributed control, and robotics.", "Implementation of Olfati-Saber algorithms\nThe repository implements Olfati-Saber's flocking algorithms for double-integrator agents. Each agent has\na state $x_i = (p_i, q_i) \\in R^{2n}$ comprising its position $p_i \\in R^{n}$ and velocity $q_i \\in R^{n}$. Agents exchange\ninformation within a perception radius $R$ and apply control laws built from artificial potential functions,\nalignment terms and external terms. The key parameters--desired separation distance, interaction radii,\nsmoothing constants and gain coefficients--are defined at the start of each simulation. The\nimplementation uses sigma-norm functions and bump functions to ensure smoothness and finite range,\nfollowing the formalism in Olfati-Saber's paper.", "Algorithm 1: cohesion and velocity consensus", "Algorithm 1 generates a cohesive flock without tracking a reference trajectory. The Flock class initialises\n$N$ agents with random positions and zero velocities and defines the parameters (perception radius,\ndesired distance, gains etc.). At each integration step the CollectiveODE method constructs the\nderivative of the aggregated state. For agent $i$, the control input $u_i$ is", "$$u_i = c_{2\\alpha} \\sum_{j \\in N_i} \\phi_{\\alpha}(\\|p_j - p_i\\|_{\\epsilon}) n_{ij} + c_{2\\alpha} \\sum_{j \\in N_i} a_{ij}(q_j - q_i)$$", "where $\\phi_{\\alpha}$ is a gradient of the artificial potential enforcing a desired distance, $n_{ij}$ is the normalised relative\nposition, $a_{ij}$ is a bump function weighting the velocity alignment and $\\epsilon$ is a smoothing parameter. The\ndouble-integrator dynamics then yield $\\dot{p}_i = q_i$ and $\\dot{q}_i = u_i$. Algorithm 1 achieves collision avoidance,\nvelocity consensus and distance regulation among agents, producing cohesive flocks without leaders.", "Algorithm 2: trajectory tracking (leader-follower)", "Algorithm 2 adds tracking of an externally defined trajectory. In addition to the cohesion and alignment\nterms from Algorithm 1, each agent computes a gamma control term based on a reference point\n($p_r(t), q_r(t)$). The control becomes", "$$u_i = u_\\alpha(p_i, q_i) + u_\\gamma(p_i, q_i, t),\n u_\\gamma = -c_{1\\gamma} \\sigma_1(p_i - p_r(t)) - c_{2\\gamma}(q_i - q_r(t)),$$", "where $\\sigma_1$ is a saturating function. The repository includes 2-D and 3-D trajectory functions Traj2D\nand Traj3D that generate circular or piecewise constant reference motions. Simulations demonstrate\nthe agents maintaining formation while following the moving target: the Main2D.m script initialises 20\nagents, runs a 120 s simulation and writes a video of the evolving positions and the tracking point.", "Algorithm 3: obstacle avoidance and goal seeking", "Algorithm 3 extends flocking to environments with obstacles and goal points. Each agent senses\nneighbours within radius $r_\\alpha$ and obstacles within radius $r_\\beta$. The control input now contains four\ncomponents:\n1. Cohesion/separation: an \"alpha\" term analogous to Algorithm 1 uses a smooth potential to\nmaintain a desired separation $d_\\alpha$ between neighbouring agents.\n2. Velocity alignment: each agent aligns its velocity with the average velocity of its neighbours,\nweighted by a bump function.\n3. Obstacle avoidance: a \"beta\" term generates exponential repulsion from obstacles and a tangential\ncomponent to slide along obstacle boundaries.\n4. Goal attraction: a \"gamma\" term drives agents towards a goal point with a normalised vector field.", "A damping term caps velocities and keeps agents inside a rectangular arena. The script Main.m\nsets parameters for a 100-agent swarm navigating an arena with circular obstacles and a goal; it uses a\nvelocity-Verlet integration scheme and stops when a majority of agents reach the goal. Plotting\nfunctions display initial Delaunay connections, trajectories and smoothed velocity profiles.", "Boids model implementation\nThe Boids model is an early, agent-based simulation of flocking introduced by Reynolds in 1987. Unlike the\ncontrol-theoretic algorithms above, Boids do not regulate inter-agent distances explicitly; they rely on\nheuristic rules of separation, alignment and cohesion. In this repository the Flock class manages $N$\nindividuals with random initial positions in 3-D space. Each individual senses neighbours within a small\nradius $R$. The acceleration of a boid is computed as", "$$a_i = K_{sep} \\sum_{j \\in N_i} \\frac{p_i - p_j}{\\|p_i - p_j\\|} + K_{ali}(\\bar{v}_i - v_i) + K_{coh}(\\bar{p}_i - p_i) + K_{goal}(p_g - p_i + 3(v_g - v_i)),$$", "where $\\bar{p}_i$ and $\\bar{v}_i$ are the average position and velocity of neighbours and $(p_g, v_g)$ is a time-dependent goal. The semi-implicit Euler integrator updates positions and velocities. The script Main.m sets\nseparation, alignment, cohesion and goal gains; defines a sequence of goal points forming a square\ntrajectory; and produces a 3-D animation of the flock. Boids produce qualitatively realistic flocking\nbut lack formal stability guarantees-this contrast is highlighted in the LinkedIn post, which notes that\nboids do not control inter-agent distances and have no proven stability.", "Utilities and dependencies\nThe simulation uses several utility functions stored in the utils folder. These include:\n- SigmaNorm , Nij , Aij , PhiAlpha and sigma1 : mathematical functions implementing the\nsigma-norm distance, normalised difference vectors, bump functions and smooth potentials used in\nOlfati-Saber algorithms.\n- MVector : a lightweight class for 3-D vector arithmetic used in the boids implementation.", "The repository requires MATLAB with basic toolboxes; the README notes that the MVector class is only\nneeded for the Boids simulation. Simulation outputs include adjacency-matrix histories, smoothed\nvelocity plots and videos of the agents' motion.", "Conclusion and significance\nThis project provides a comprehensive suite of flocking algorithms with clear, commented MATLAB code. It\ndemonstrates how control-theoretic flocking differs from heuristic boid models: the former guarantees\ncollision avoidance, velocity consensus and convergence to desired formations, while the latter yields\nemergent behaviours without formal proofs. The implementation illustrates how varying the control law\nleads to additional capabilities such as trajectory tracking and obstacle avoidance. By combining rigorous\nmethods with intuitive visualisations, the project bridges research and education in multi-agent systems.", "References", "[1] R. Olfati-Saber, \"Flocking for multi-agent dynamic systems: Algorithms and theory,\" IEEE Transactions on Automatic Control, vol. 51, no. 3, pp. 401-420, Mar. 2006.", "[2] C. W. Reynolds, \"Flocks, herds, and schools: A distributed behavioral model,\" in Proc. SIGGRAPH '87, 1987, pp. 25-34."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Flocking"}], "images": [{"src": "assets/images/project_thumbnails/motion_simulation_2D.gif", "alt": "Flocking simulation GIF"}], "imageSize": "large", "embed": {"src": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7243604617773613056?compact=1", "height": 399, "width": 504, "title": "LinkedIn post"}}</script>
+</article>
+<article class="card project-card" data-tags="embedded" data-updated="2025-09-25">
   <div class="project-header">
     <h3>PCA9685-Raspberrypi</h3>
     <span class="project-date">2025</span>
@@ -120,7 +123,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "PCA9685-Raspberrypi", "year": "2025", "tags": [{"id": "embedded", "label": "Embedded"}], "summary": "Provides a library to drive the PCA9685 PWM module with a Raspberry Pi via WiringPi.", "details": ["Provides a library to drive the PCA9685 PWM module with a Raspberry Pi via WiringPi. It simplifies controlling multiple motors or LEDs through a single I2C interface and includes calibration routines."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/PCA9685-Raspberrypi"}]}</script>
-</article><article class="card project-card" data-tags="vision" data-updated="2025-08-31">
+</article>
+<article class="card project-card" data-tags="vision" data-updated="2025-08-31">
   <div class="project-header">
     <h3>JigSaw-OpenCV</h3>
     <span class="project-date">2025</span>
@@ -131,7 +135,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "JigSaw-OpenCV", "year": "2025", "tags": [{"id": "vision", "label": "Vision"}], "summary": "A computer-vision project that solves simple jigsaw puzzles.", "details": ["A computer-vision project that solves simple jigsaw puzzles. By detecting puzzle-piece shapes and using contour matching, it assembles the pieces into the original picture.", "Uses classical OpenCV techniques such as contour extraction and shape matching, without deep learning."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/JigSaw-OpenCV"}]}</script>
-</article><article class="card project-card" data-tags="optimization,ai-ml" data-updated="2025-08-25">
+</article>
+<article class="card project-card" data-tags="optimization,ai-ml" data-updated="2025-08-25">
   <div class="project-header">
     <h3>Optimization4ML</h3>
     <span class="project-date">2025</span>
@@ -142,7 +147,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Optimization4ML", "year": "2025", "tags": [{"id": "optimization", "label": "Optimization"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "A visual demonstration comparing different numerical optimisation algorithms for machine-learning tasks.", "details": ["A visual demonstration comparing different numerical optimisation algorithms for machine-learning tasks. It plots the convergence behaviour of methods like gradient descent, Newton's method and quasi-Newton approaches.", "A Python project demonstrating various optimization algorithms and techniques commonly used in machine learning. This repository contains implementations of different optimization methods that can be applied to machine learning problems."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Optimization4ML"}]}</script>
-</article><article class="card project-card" data-tags="ai-ml" data-updated="2025-08-24">
+</article>
+<article class="card project-card" data-tags="ai-ml" data-updated="2025-08-24">
   <div class="project-header">
     <h3>Minimum-Grad</h3>
     <span class="project-date">2025</span>
@@ -153,7 +159,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Minimum-Grad", "year": "2025", "tags": [{"id": "ai-ml", "label": "AI/ML"}], "summary": "An educational MATLAB automatic differentiation system inspired by micrograd and teenygrad, with a Tensor core and neural-network examples.", "details": ["This project implements a simple automatic differentiation system in MATLAB for educational use, inspired by Andrej Karpathy's micrograd and George Hotz's teenygrad. At its core is a Tensor class that supports basic mathematical operations and backpropagation, enabling the construction and training of small neural networks.", "The framework includes common activation functions and numerical optimizers, with example scripts demonstrating how to build and train models. It prioritizes clarity and readability over production use, serving as a practical introduction to autograd systems and neural network training."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Minimum-Grad"}]}</script>
-</article><article class="card project-card" data-tags="manipulator,control" data-updated="2025-06-01">
+</article>
+<article class="card project-card" data-tags="manipulator,control" data-updated="2025-06-01">
   <div class="project-header">
     <h3>Kinova-Gen3-Control</h3>
     <span class="project-date">2025</span>
@@ -163,8 +170,9 @@
   <div class="project-actions">
     <button class="project-open" type="button">View details</button>
   </div>
-  <script type="application/json" class="project-data">{"title": "Kinova-Gen3-Control", "year": "2025", "tags": [{"id": "manipulator", "label": "Manipulators"}, {"id": "control", "label": "Control Theory"}], "summary": "Robotics and Control 1 MATLAB/Simulink framework for Kinova Gen3 control with ManiDyn dynamics and advanced controllers.", "details": ["This project was developed for the Robotics and Control 1 course and provides a comprehensive MATLAB/Simulink framework for controlling the Kinova Gen3 7-DoF robotic manipulator using advanced control algorithms. All robot dynamics are computed through the ManiDyn toolbox, enabling accurate modeling of forward kinematics, Jacobians, and full dynamics (mass matrix, Coriolis, gravity, and system ODEs).", "The repository includes URDF robot descriptions, a Simscape Multibody template, and high-performance MEX functions, alongside implementations of PD with gravity compensation, PID, feedback linearization, inverse dynamics, sliding mode, and robust inverse dynamics control, making it a complete reference for studying and testing modern manipulator control strategies. It was developed in collaboration with Ali Rezaei."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Kinova-Gen3-Control"}, {"label": "Collaborator", "url": "https://github.com/AliiRezaei"}], "image": {"src": "assets/images/project_thumbnails/kinovacontrol.png", "alt": "Kinova Gen3 Control project overview"}, "embed": {"src": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7358779190826991616", "height": 1222, "width": 504, "title": "LinkedIn post"}}</script>
-</article><article class="card project-card" data-tags="control,optimization" data-updated="2025-07-16">
+  <script type="application/json" class="project-data">{"title": "Kinova-Gen3-Control", "year": "2025", "tags": [{"id": "manipulator", "label": "Manipulators"}, {"id": "control", "label": "Control Theory"}], "summary": "Robotics and Control 1 MATLAB/Simulink framework for Kinova Gen3 control with ManiDyn dynamics and advanced controllers.", "details": ["This project was developed for the Robotics and Control 1 course and provides a comprehensive MATLAB/Simulink framework for controlling the Kinova Gen3 7-DoF robotic manipulator using advanced control algorithms. All robot dynamics are computed through the ManiDyn toolbox, enabling accurate modeling of forward kinematics, Jacobians, and full dynamics (mass matrix, Coriolis, gravity, and system ODEs).", "This project is done in collaboration with [Ali Rezaei](https://github.com/AliiRezaei)."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Kinova-Gen3-Control"}], "image": {"src": "assets/images/project_thumbnails/kinovacontrol.png", "alt": "Kinova Gen3 Control project overview"}, "embed": {"src": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7358779190826991616", "height": 1222, "width": 504, "title": "LinkedIn post"}}</script>
+</article>
+<article class="card project-card" data-tags="control,optimization" data-updated="2025-07-16">
   <div class="project-header">
     <h3>Shilling</h3>
     <span class="project-date">2025</span>
@@ -175,7 +183,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Shilling", "year": "2025", "tags": [{"id": "control", "label": "Control Theory"}, {"id": "optimization", "label": "Optimization"}], "summary": "Implements 28 Runge-Kutta-based fixed-step ODE solvers in MATLAB.", "details": ["Implements 28 Runge-Kutta-based fixed-step ODE solvers in MATLAB. It offers a collection of integrators for stiff and non-stiff systems and serves as a numerical analysis reference.", "Provides a reference set of fixed-step solvers for nonlinear ODEs, suitable for benchmarking and study."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Shilling"}]}</script>
-</article><article class="card project-card" data-tags="control,ai-ml" data-updated="2025-06-16">
+</article>
+<article class="card project-card" data-tags="control,ai-ml" data-updated="2025-06-16">
   <div class="project-header">
     <h3>SIS-Param-Estim</h3>
     <span class="project-date">2025</span>
@@ -186,7 +195,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "SIS-Param-Estim", "year": "2025", "tags": [{"id": "control", "label": "Control Theory"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Contains implementations of Markov-Chain Monte-Carlo and the Extended Kalman Filter applied to Susceptible-Infected-Susceptible (SIS) epidemic models.", "details": ["Contains implementations of Markov-Chain Monte-Carlo and the Extended Kalman Filter applied to Susceptible-Infected-Susceptible (SIS) epidemic models. It demonstrates parameter estimation for epidemiological systems.", "Bayesian Parameter Estimation of Network SIS Model."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/SIS-Param-Estim"}]}</script>
-</article><article class="card project-card" data-tags="aerial-robotics,vision,control" data-updated="2025-06-10">
+</article>
+<article class="card project-card" data-tags="aerial-robotics,vision,control" data-updated="2025-06-10">
   <div class="project-header">
     <h3>Pose-Ordered-Tello</h3>
     <span class="project-date">2025</span>
@@ -197,7 +207,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Pose-Ordered-Tello", "year": "2025", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}, {"id": "vision", "label": "Vision"}, {"id": "control", "label": "Control Theory"}], "summary": "A project from a mechatronics class that controls a DJI Tello drone based on human body pose estimated with computer vision.", "details": ["A project from a mechatronics class that controls a DJI Tello drone based on human body pose estimated with computer vision. It integrates MediaPipe pose estimation with a PID controller to command the drone's motion.", "Demonstrates human-robot interaction by mapping pose-estimation landmarks to drone commands."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Pose-Ordered-Tello"}]}</script>
-</article><article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2025-04-18">
+</article>
+<article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2025-04-18">
   <div class="project-header">
     <h3>Optimized Alzheimer Disease Detector</h3>
     <span class="project-date">2025</span>
@@ -208,7 +219,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Optimized Alzheimer Disease Detector", "year": "2025", "tags": [{"id": "neuro-bci", "label": "Neuro/BCI"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Uses optimisation algorithms to perform feature selection for Alzheimer-disease detection from EEG data.", "details": ["Uses optimisation algorithms to perform feature selection for Alzheimer-disease detection from EEG data. It evaluates K-nearest-neighbour, linear discriminant analysis and decision-tree classifiers, and accelerates the computations using MATLAB's parallel computing toolbox."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Optimized-Alzheimer-Disease-Detector"}]}</script>
-</article><article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2025-04-18">
+</article>
+<article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2025-04-18">
   <div class="project-header">
     <h3>Optimized Epilepsy Seizure Detection</h3>
     <span class="project-date">2025</span>
@@ -219,7 +231,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Optimized Epilepsy Seizure Detection", "year": "2025", "tags": [{"id": "neuro-bci", "label": "Neuro/BCI"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Similar to the Alzheimer project but focused on epilepsy seizure detection.", "details": ["Similar to the Alzheimer project but focused on epilepsy seizure detection. It applies optimisation-based feature selection to EEG signals and tests KNN, LDA and decision-tree classifiers, accelerated with MATLAB's parallel toolbox."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Optimized-Epilepsy-Seizure-Detection"}]}</script>
-</article><article class="card project-card" data-tags="optimization,control" data-updated="2025-04-05">
+</article>
+<article class="card project-card" data-tags="optimization,control" data-updated="2025-04-05">
   <div class="project-header">
     <h3>Dynamical-Flow</h3>
     <span class="project-date">2025</span>
@@ -230,7 +243,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Dynamical-Flow", "year": "2025", "tags": [{"id": "optimization", "label": "Optimization"}, {"id": "control", "label": "Control Theory"}], "summary": "Demonstrates a dynamical-systems approach to tasks normally solved algebraically.", "details": ["Demonstrates a dynamical-systems approach to tasks normally solved algebraically. Inspired by recent research, it shows how dynamical flows can sort lists, diagonalise matrices and solve linear programmes by shaping vector fields to steer trajectories towards solutions.", "Implementation of the following paper: R. W. Brockett, \"Dynamical Systems That Sort Lists, Diagonalize Matrices, and Solve Linear Programming Problems\" Linear Algebra and Its Applications, vol. 146, pp. 79-91, 1991."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Dynamical-Flow"}]}</script>
-</article><article class="card project-card" data-tags="multi-agent,control" data-updated="2025-03-29">
+</article>
+<article class="card project-card" data-tags="multi-agent,control" data-updated="2025-03-29">
   <div class="project-header">
     <h3>Distributed-Localization</h3>
     <span class="project-date">2025</span>
@@ -241,7 +255,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Distributed-Localization", "year": "2025", "tags": [{"id": "multi-agent", "label": "Multi-Agent"}, {"id": "control", "label": "Control Theory"}], "summary": "Implements algorithms from the MIT technical report \"Anchor-Free Distributed Localization in Sensor Networks.\" The code demonstrates anchor-free...", "details": ["Implements algorithms from the MIT technical report \"Anchor-Free Distributed Localization in Sensor Networks.\" The code demonstrates anchor-free localisation using only inter-sensor distance measurements and highlights why global localisation is ill-posed without anchors. It is mainly written in MATLAB.", "Anchor-Free Distributed-Localization? Really?"], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Distributed-Localization"}]}</script>
-</article><article class="card project-card" data-tags="embedded" data-updated="2025-03-23">
+</article>
+<article class="card project-card" data-tags="embedded" data-updated="2025-03-23">
   <div class="project-header">
     <h3>BNO055-RaspberryPi</h3>
     <span class="project-date">2025</span>
@@ -252,7 +267,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "BNO055-RaspberryPi", "year": "2025", "tags": [{"id": "embedded", "label": "Embedded"}], "summary": "A C++ library for the Bosch BNO055 nine-axis inertial measurement unit (IMU) on the Raspberry Pi using the WiringPi library.", "details": ["A C++ library for the Bosch BNO055 nine-axis inertial measurement unit (IMU) on the Raspberry Pi using the WiringPi library. It provides functions for sensor initialisation, calibration and reading fused orientation/acceleration data The repo helps robotics projects needing accurate attitude estimation."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/BNO055-RaspberryPi"}]}</script>
-</article><article class="card project-card" data-tags="" data-updated="2024-09-17">
+</article>
+<article class="card project-card" data-tags="" data-updated="2024-09-17">
   <div class="project-header">
     <h3>DS-Algo-101</h3>
     <span class="project-date">2024</span>
@@ -263,7 +279,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "DS-Algo-101", "year": "2024", "tags": [], "summary": "Contains simple implementations of common data-structures and algorithms such as linked lists, trees, sorting and searching.", "details": ["Contains simple implementations of common data-structures and algorithms such as linked lists, trees, sorting and searching. The goal is educational-showing how each structure works internally.", "Data Structures and Algorithms: Recursion Arrays Matrices Sparse Matrices Polynomials Linked Lists Stack Queue Trees Binary Search Tree AVL Tree Search Trees Sorting(Heap Sort, Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Merge Sort, Count Sort, Shell Sort) Hashing Graph Algorithms(Breadth First Search, Depth First Search, Prim's Min Spanning Tree, Kruskals Min Spanning Tree)."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/DS-Algo-101"}]}</script>
-</article><article class="card project-card" data-tags="control" data-updated="2024-08-17">
+</article>
+<article class="card project-card" data-tags="control" data-updated="2024-08-17">
   <div class="project-header">
     <h3>SMC-Bible</h3>
     <span class="project-date">2024</span>
@@ -274,7 +291,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "SMC-Bible", "year": "2024", "tags": [{"id": "control", "label": "Control Theory"}], "summary": "Implements many problems from the Sliding Mode Control chapter of Slotine & Li's Applied Nonlinear Control.", "details": ["Implements many problems from the Sliding Mode Control chapter of Slotine & Li's Applied Nonlinear Control. The MATLAB scripts provide worked examples of reaching laws, switching surfaces and robustness analysis.", "Implementation of Most of the Sliding Mode Control Chapter Problems in the Applied Non Linear Control by JJE Slotine."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/SMC-Bible"}]}</script>
-</article><article class="card project-card" data-tags="control,ai-ml" data-updated="2024-08-09">
+</article>
+<article class="card project-card" data-tags="control,ai-ml" data-updated="2024-08-09">
   <div class="project-header">
     <h3>NN-Obs-Id-MIMO-Nonlinear-Systems</h3>
     <span class="project-date">2024</span>
@@ -285,7 +303,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "NN-Obs-Id-MIMO-Nonlinear-Systems", "year": "2024", "tags": [{"id": "control", "label": "Control Theory"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Implements a recurrent neural-network-based observer and identifier for nonlinear dynamical systems.", "details": ["Implements a recurrent neural-network-based observer and identifier for nonlinear dynamical systems. Using the Lorenz attractor as a test case, it illustrates how RNNs can simultaneously estimate states and unknown parameters in multiple-input multiple-output systems.", "Neural Network Observer-Identifier for MIMO Nonlinear Systems."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/NN-Obs-Id-MIMO-Nonlinear-Systems"}]}</script>
-</article><article class="card project-card" data-tags="aerial-robotics,optimization" data-updated="2024-01-13">
+</article>
+<article class="card project-card" data-tags="aerial-robotics,optimization" data-updated="2024-01-13">
   <div class="project-header">
     <h3>Evo-Copter</h3>
     <span class="project-date">2024</span>
@@ -296,7 +315,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Evo-Copter", "year": "2024", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}, {"id": "optimization", "label": "Optimization"}], "summary": "A quadcopter project based on a Raspberry Pi with a flight controller tuned using the Bio-Geography-Based Optimisation algorithm.", "details": ["A quadcopter project based on a Raspberry Pi with a flight controller tuned using the Bio-Geography-Based Optimisation algorithm. It aims to investigate whether evolutionary optimisation can automate PID tuning for aggressive flight.", "Uses bio-geography-based optimization to tune stabilization gains on a Raspberry Pi-based quadcopter."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Evo-Copter"}]}</script>
-</article><article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2023-11-23">
+</article>
+<article class="card project-card" data-tags="neuro-bci,ai-ml" data-updated="2023-11-23">
   <div class="project-header">
     <h3>Ultimate-BCI-Design</h3>
     <span class="project-date">2023</span>
@@ -307,7 +327,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Ultimate-BCI-Design", "year": "2023", "tags": [{"id": "neuro-bci", "label": "Neuro/BCI"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Collects implementations of classic brain-computer-interface algorithms in MATLAB, such as common spatial patterns, filter bank methods and classification...", "details": ["Collects implementations of classic brain-computer-interface algorithms in MATLAB, such as common spatial patterns, filter bank methods and classification pipelines.", "This repo contains the implementation of several State-Of-The-Art BCI-Design machine learning and linear algebra algorithms along with their own papers for the sake of research in neurologic signal processing for BCI-Systems-Design."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Ultimate-BCI-Design"}]}</script>
-</article><article class="card project-card" data-tags="neuro-bci,embedded" data-updated="2023-10-03">
+</article>
+<article class="card project-card" data-tags="neuro-bci,embedded" data-updated="2023-10-03">
   <div class="project-header">
     <h3>SSVEP-Blink-LED</h3>
     <span class="project-date">2023</span>
@@ -318,7 +339,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "SSVEP-Blink-LED", "year": "2023", "tags": [{"id": "neuro-bci", "label": "Neuro/BCI"}, {"id": "embedded", "label": "Embedded"}], "summary": "Provides a simple circuit design and scripts for steady-state visually evoked potential (SSVEP) stimulation.", "details": ["Provides a simple circuit design and scripts for steady-state visually evoked potential (SSVEP) stimulation. The circuit uses programmable LED blinkers to create flicker at desired frequencies for brain-computer-interface experiments.", "SSVEP LED Stimulator This Simple Circuit is Created as an SSVEP Brain Stimulator with Any Number of LEDs and Desired Frequencies."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/SSVEP-Blink-LED"}]}</script>
-</article><article class="card project-card" data-tags="aerial-robotics,control" data-updated="2023-08-18">
+</article>
+<article class="card project-card" data-tags="aerial-robotics,control" data-updated="2023-08-18">
   <div class="project-header">
     <h3>Icarus</h3>
     <span class="project-date">2023</span>
@@ -329,7 +351,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Icarus", "year": "2023", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}, {"id": "control", "label": "Control Theory"}], "summary": "A comprehensive MATLAB project accompanying Banaan's Bachelor's thesis.", "details": ["A comprehensive MATLAB project accompanying Banaan's Bachelor's thesis. It derives and implements the 6-DoF dynamics of a quadcopter, designs linear PID and non-linear sliding-mode controllers, and explores learning-based strategies for performing flips. The repo includes simulation scripts, plots and a thesis report.", "The project, named \"Icarus\" after the Greek mythologies, comprises three distinct phases."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Icarus"}]}</script>
-</article><article class="card project-card" data-tags="embedded" data-updated="2023-05-03">
+</article>
+<article class="card project-card" data-tags="embedded" data-updated="2023-05-03">
   <div class="project-header">
     <h3>Arduino-NRF24L01-Based-Radio-PCB</h3>
     <span class="project-date">2023</span>
@@ -340,7 +363,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Arduino-NRF24L01-Based-Radio-PCB", "year": "2023", "tags": [{"id": "embedded", "label": "Embedded"}], "summary": "Provides Gerber files and schematics for building a low-cost radio transmitter/receiver using an Arduino and NRF24L01 transceiver modules.", "details": ["Provides Gerber files and schematics for building a low-cost radio transmitter/receiver using an Arduino and NRF24L01 transceiver modules. The design targets drone or RC applications and is complemented by software examples. It aims to help makers fabricate a custom radio PCB using KiCad and quickly deploy a reliable wireless link.", "Arduino and nRF24L01 Based Radio Controller PCB."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Arduino-NRF24L01-Based-Radio-PCB"}]}</script>
-</article><article class="card project-card" data-tags="optimization,ai-ml" data-updated="2023-05-03">
+</article>
+<article class="card project-card" data-tags="optimization,ai-ml" data-updated="2023-05-03">
   <div class="project-header">
     <h3>BBO-python</h3>
     <span class="project-date">2023</span>
@@ -351,7 +375,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "BBO-python", "year": "2023", "tags": [{"id": "optimization", "label": "Optimization"}, {"id": "ai-ml", "label": "AI/ML"}], "summary": "Implements the Biogeography-Based Optimisation (BBO) algorithm in Python.", "details": ["Implements the Biogeography-Based Optimisation (BBO) algorithm in Python. BBO is a population-based meta-heuristic inspired by the distribution of species on islands. This repo gives a clear implementation and small examples so users can apply BBO to optimisation problems.", "More info at: Wikipedia Main Paper by Dr. Dan Simon."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/BBO-python"}]}</script>
-</article><article class="card project-card" data-tags="vision" data-updated="2023-05-03">
+</article>
+<article class="card project-card" data-tags="vision" data-updated="2023-05-03">
   <div class="project-header">
     <h3>Image-Messenger</h3>
     <span class="project-date">2023</span>
@@ -362,7 +387,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Image-Messenger", "year": "2023", "tags": [{"id": "vision", "label": "Vision"}], "summary": "Explores steganography by hiding text messages inside images.", "details": ["Explores steganography by hiding text messages inside images. The code demonstrates embedding and extraction of messages using simple least-significant-bit techniques.", "Can you believe that the image below, has the capacity of holding 2.3 Million Characters?"], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Image-Messenger"}]}</script>
-</article><article class="card project-card" data-tags="neuro-bci" data-updated="2023-05-03">
+</article>
+<article class="card project-card" data-tags="neuro-bci" data-updated="2023-05-03">
   <div class="project-header">
     <h3>Manual-Rpeak-Selection-Plotter</h3>
     <span class="project-date">2023</span>
@@ -373,7 +399,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Manual-Rpeak-Selection-Plotter", "year": "2023", "tags": [{"id": "neuro-bci", "label": "Neuro/BCI"}], "summary": "Assists in manually selecting R-peaks in ECG signals.", "details": ["Assists in manually selecting R-peaks in ECG signals. The script divides a signal into segments, plots them for visual inspection and records manually chosen peak positions. Useful for validating automatic peak detectors.", "This is Specifically made for manual R-peak selection to check results of Algorithmic Selection."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Manual-Rpeak-Selection-Plotter"}]}</script>
-</article><article class="card project-card" data-tags="control" data-updated="2023-01-12">
+</article>
+<article class="card project-card" data-tags="control" data-updated="2023-01-12">
   <div class="project-header">
     <h3>Mass-Spring-Damper-ID-Control</h3>
     <span class="project-date">2023</span>
@@ -384,7 +411,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Mass-Spring-Damper-ID-Control", "year": "2023", "tags": [{"id": "control", "label": "Control Theory"}], "summary": "Studies a mass-spring-damper oscillator.", "details": ["Studies a mass-spring-damper oscillator. It performs system identification using minimum variance unbiased estimators and designs PID controllers, including intelligent techniques, to regulate the system. Aimed at students learning modelling, estimation and control.", "System Identification and Intelligent Controller Design on a Mass Spring Damper System."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Mass-Spring-Damper-ID-Control"}]}</script>
-</article><article class="card project-card" data-tags="ai-ml,control" data-updated="2022-08-23">
+</article>
+<article class="card project-card" data-tags="ai-ml,control" data-updated="2022-08-23">
   <div class="project-header">
     <h3>DL-for-Navigation</h3>
     <span class="project-date">2022</span>
@@ -395,7 +423,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "DL-for-Navigation", "year": "2022", "tags": [{"id": "ai-ml", "label": "AI/ML"}, {"id": "control", "label": "Control Theory"}], "summary": "A project exploring how regression models can replace non-linear filters for state estimation in navigation tasks.", "details": ["A project exploring how regression models can replace non-linear filters for state estimation in navigation tasks. It uses inertial measurement data to train neural networks that approximate state estimators. The repo includes data and scripts for training and evaluation.", "Implementation of Regression Models(DRNN + SVR + KNR) Against Kalman Filters for the Calculation of Quaternions and Euler Angles."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/DL-for-Navigation"}]}</script>
-</article><article class="card project-card" data-tags="aerial-robotics,embedded,control" data-updated="2022-07-26">
+</article>
+<article class="card project-card" data-tags="aerial-robotics,embedded,control" data-updated="2022-07-26">
   <div class="project-header">
     <h3>Raspi-Kapta</h3>
     <span class="project-date">2022</span>
@@ -406,7 +435,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "Raspi-Kapta", "year": "2022", "tags": [{"id": "aerial-robotics", "label": "Aerial Robotics"}, {"id": "embedded", "label": "Embedded"}, {"id": "control", "label": "Control Theory"}], "summary": "A modular flight-controller platform based on Raspberry Pi.", "details": ["A modular flight-controller platform based on Raspberry Pi. It reads inputs via an Arduino receiver module, fuses attitude using a BNO055 IMU, drives motors through a PCA9685 and implements an anti-windup PID controller. The project includes calibration tools and test scripts.", "Designed as a reusable foundation for multirotor projects with modular hardware and software components."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Raspi-Kapta"}]}</script>
-</article><article class="card project-card" data-tags="ai-ml" data-updated="2022-04-15">
+</article>
+<article class="card project-card" data-tags="ai-ml" data-updated="2022-04-15">
   <div class="project-header">
     <h3>IMU-Activity-Detection</h3>
     <span class="project-date">2022</span>
@@ -417,7 +447,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "IMU-Activity-Detection", "year": "2022", "tags": [{"id": "ai-ml", "label": "AI/ML"}], "summary": "Uses inertial sensor data to classify human activities.", "details": ["Uses inertial sensor data to classify human activities. The repository supplies datasets, feature-extraction scripts and machine-learning models to distinguish different motions such as walking, running or sitting.", "Human Activity Classification Using IMUs."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/IMU-Activity-Detection"}]}</script>
-</article><article class="card project-card" data-tags="visualization" data-updated="2022-03-17">
+</article>
+<article class="card project-card" data-tags="visualization" data-updated="2022-03-17">
   <div class="project-header">
     <h3>MandelBulb</h3>
     <span class="project-date">2022</span>
@@ -428,7 +459,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "MandelBulb", "year": "2022", "tags": [{"id": "visualization", "label": "Visualization"}], "summary": "Generates and plots the 3D Mandelbulb fractal.", "details": ["Generates and plots the 3D Mandelbulb fractal. The code numerically constructs the fractal point cloud and renders it, providing an introduction to fractal geometry in MATLAB.", "Numeric Calculation of the Mandelbulb. For more info click here: Mandelbulb."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/MandelBulb"}]}</script>
-</article><article class="card project-card" data-tags="embedded" data-updated="2021-12-24">
+</article>
+<article class="card project-card" data-tags="embedded" data-updated="2021-12-24">
   <div class="project-header">
     <h3>SLC-Radio</h3>
     <span class="project-date">2021</span>
@@ -439,7 +471,8 @@
     <button class="project-open" type="button">View details</button>
   </div>
   <script type="application/json" class="project-data">{"title": "SLC-Radio", "year": "2021", "tags": [{"id": "embedded", "label": "Embedded"}], "summary": "Designs a super-low-cost radio transmitter/receiver system using both Arduino and Processing 3.", "details": ["Designs a super-low-cost radio transmitter/receiver system using both Arduino and Processing 3. Intended for drones and RC vehicles, it includes hardware schematics, a Processing-based ground-station GUI, and code for NRF24L01 communication."], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/SLC-Radio"}]}</script>
-</article><article class="card project-card" data-tags="visualization" data-updated="2021-10-11">
+</article>
+<article class="card project-card" data-tags="visualization" data-updated="2021-10-11">
   <div class="project-header">
     <h3>Random-Dot-Madness</h3>
     <span class="project-date">2021</span>

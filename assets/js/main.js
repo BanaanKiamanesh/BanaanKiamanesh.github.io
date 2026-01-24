@@ -112,7 +112,18 @@ if (projectGrid) {
       }
 
       if (modalTitle) {
-        modalTitle.textContent = data.title || "";
+        modalTitle.textContent = "";
+        if (data.titleLink) {
+          const link = document.createElement("a");
+          link.className = "modal-title-link";
+          link.href = data.titleLink;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = data.title || "";
+          modalTitle.appendChild(link);
+        } else {
+          modalTitle.textContent = data.title || "";
+        }
       }
       if (modalYear) {
         modalYear.textContent = data.year ? String(data.year) : "";
@@ -133,7 +144,11 @@ if (projectGrid) {
           .replace(/&/g, "&amp;")
           .replace(/</g, "&lt;")
           .replace(/>/g, "&gt;");
-        return escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+        const withBold = escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+        return withBold.replace(
+          /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+          '<a href="$2" target="_blank" rel="noreferrer" class="inline-link">$1</a>'
+        );
       };
 
       const buildImages = (images, className) => {
@@ -167,7 +182,13 @@ if (projectGrid) {
           left.className = "modal-left";
 
           const imageList = data.images || (data.image ? [data.image] : []);
-          const gallery = buildImages(imageList, "modal-gallery modal-gallery--small");
+          const imageSize =
+            data.imageSize === "large"
+              ? "modal-gallery modal-gallery--large"
+              : data.imageSize === "half"
+                ? "modal-gallery modal-gallery--half"
+                : "modal-gallery modal-gallery--small";
+          const gallery = buildImages(imageList, imageSize);
           if (gallery) {
             left.appendChild(gallery);
           }
@@ -195,7 +216,17 @@ if (projectGrid) {
           modalBody.appendChild(layout);
         } else {
           const imageList = data.images || (data.image ? [data.image] : []);
-          if (imageList.length > 0) {
+          if (imageList.length > 0 && data.imagePlacement === "inline") {
+            const gallery = buildImages(imageList, "modal-gallery modal-gallery--inline");
+            if (gallery) {
+              modalBody.appendChild(gallery);
+            }
+            (data.details || []).forEach((paragraph) => {
+              const p = document.createElement("p");
+              p.innerHTML = renderParagraph(paragraph);
+              modalBody.appendChild(p);
+            });
+          } else if (imageList.length > 0) {
             const layout = document.createElement("div");
             layout.className = "modal-layout";
 
@@ -227,17 +258,37 @@ if (projectGrid) {
             });
           }
         }
+        if (window.MathJax && window.MathJax.typesetPromise) {
+          window.MathJax.typesetPromise([modalBody]).catch(() => {});
+        }
       }
 
       if (modalLinks) {
         modalLinks.innerHTML = "";
         (data.links || []).forEach((link) => {
+          if (!link || !link.url || !link.label) {
+            return;
+          }
           const a = document.createElement("a");
           a.className = "text-link";
           a.href = link.url;
           a.target = "_blank";
           a.rel = "noreferrer";
-          a.textContent = link.label;
+          if (link.icon) {
+            a.classList.add("text-link--icon");
+            const img = document.createElement("img");
+            img.className = "link-icon";
+            img.src = link.icon;
+            img.alt = link.label;
+            img.loading = "lazy";
+            img.decoding = "async";
+            a.appendChild(img);
+            const span = document.createElement("span");
+            span.textContent = link.label;
+            a.appendChild(span);
+          } else {
+            a.textContent = link.label;
+          }
           modalLinks.appendChild(a);
         });
       }

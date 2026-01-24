@@ -59,6 +59,10 @@
   padding: var(--space-6) 0;
 }
 
+.page {
+  padding-bottom: var(--space-6);
+}
+
 .page-hero {
   padding: var(--space-6) 0 var(--space-5);
 }
@@ -113,6 +117,15 @@
   padding: var(--space-4) 0 var(--space-6);
   border-top: 1px solid var(--border);
   margin-top: auto;
+  flex-shrink: 0;
+}
+
+body.modal-open .site-footer {
+  display: none;
+}
+
+body.modal-open .site-header {
+  display: none;
 }
 
 .footer-inner {
