@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Banaan Kiamanesh - Home</title>
+  <meta name="description" content="Control systems engineer and roboticist focused on flight control, manipulators, and multi-agent systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Banaan Kiamanesh</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a class="nav-cta" href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-panel">
+        <span class="sr-only">Open menu</span>
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+    <div class="nav-panel" id="nav-panel" hidden>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Control systems engineer and roboticist</p>
+          <h1 class="hero-title">Banaan Kiamanesh</h1>
+          <p class="lead">
+            Control systems engineer, programmer, and maker focused on flight control, manipulators,
+            and multi-agent systems. Data science and neuroscience enthusiast.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="work.html">View projects</a>
+            <a class="btn ghost" href="contact.html">Contact</a>
+          </div>
+          <ul class="meta-list">
+            <li>
+              <span class="meta-label">Focus</span>
+              <span>Flight control, manipulators, multi-agent systems</span>
+            </li>
+            <li>
+              <span class="meta-label">Methods</span>
+              <span>PID, sliding-mode control, identification, estimation</span>
+            </li>
+            <li>
+              <span class="meta-label">Themes</span>
+              <span>Robotics, optimization, BCI, data science</span>
+            </li>
+            <li>
+              <span class="meta-label">Location</span>
+              <span>Padova, Italy</span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <div class="photo-card">
+            <img src="assets/images/20250508_2010491.jpg" alt="Portrait of Banaan Kiamanesh" />
+          </div>
+          <p class="photo-note">MSc Electrical Engineering (Control) - University of Padua</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2 class="section-title">Profile</h2>
+          <p>
+            I design and implement control systems for aerial robots and robot arms, with a strong
+            emphasis on modeling, simulation, and robust control. My work spans distributed localization,
+            optimization, and intelligent estimation for real-world robotics.
+          </p>
+          <p>
+            I also build embedded modules and open-source learning resources to support students and
+            researchers in control theory, robotics, and reinforcement learning.
+          </p>
+          <a class="text-link" href="about.html">Read the full biography</a>
+        </div>
+        <div class="panel">
+          <h3 class="panel-title">Core themes</h3>
+          <ul class="bullet-list">
+            <li>Quadcopter dynamics and flight control</li>
+            <li>Manipulator modeling and control frameworks</li>
+            <li>Multi-agent systems and distributed localization</li>
+            <li>Neurotechnology and brain-computer interfaces</li>
+            <li>Numerical methods and optimization for control</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Selected repositories</h2>
+            <p class="section-subtitle">A few representative projects from the full catalog.</p>
+          </div>
+          <a class="text-link" href="work.html">View all projects</a>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Icarus</h3>
+            <p>Quadcopter dynamics and control with PID, sliding mode, and multi-flip learning.</p>
+            <div class="tag-row">
+              <span class="tag">MATLAB</span>
+              <span class="tag">Flight control</span>
+              <span class="tag">Dynamics</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/Icarus" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>Raspi-Kapta</h3>
+            <p>Modular Raspberry Pi flight controller with IMU fusion, PWM drive, and PID loops.</p>
+            <div class="tag-row">
+              <span class="tag">C++</span>
+              <span class="tag">Embedded</span>
+              <span class="tag">IMU</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/Raspi-Kapta" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>Kinova Gen3 Control</h3>
+            <p>MATLAB and Simulink controllers for a 7-DoF arm, from PD to robust inverse dynamics.</p>
+            <div class="tag-row">
+              <span class="tag">Manipulators</span>
+              <span class="tag">Control Theory</span>
+              <span class="tag">MATLAB</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/Kinova-Gen3-Control" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>ManiDyn</h3>
+            <p>Symbolic modeling toolbox for serial-link manipulators used in advanced control pipelines.</p>
+            <div class="tag-row">
+              <span class="tag">Modeling</span>
+              <span class="tag">Robotics</span>
+              <span class="tag">MATLAB</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/ManiDyn" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>Ultimate BCI Design</h3>
+            <p>Implementations of classic BCI pipelines, including CSP, filter banks, and classifiers.</p>
+            <div class="tag-row">
+              <span class="tag">BCI</span>
+              <span class="tag">Signal processing</span>
+              <span class="tag">MATLAB</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/Ultimate-BCI-Design" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="card">
+            <h3>WayPoint</h3>
+            <p>Browser-based waypoint mission planner for DJI Fly with a lightweight web interface.</p>
+            <div class="tag-row">
+              <span class="tag">JavaScript</span>
+              <span class="tag">DJI</span>
+              <span class="tag">Planning</span>
+            </div>
+            <a class="text-link" href="https://github.com/BanaanKiamanesh/WayPoint" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2 class="section-title">Teaching and materials</h2>
+          <p>
+            I teach MATLAB data visualization, covering professional plotting, 3D visualization,
+            animation, and export for research and presentations. Course repositories and examples are
+            available for students and collaborators.
+          </p>
+        </div>
+        <div class="panel">
+          <h3 class="panel-title">Learning focus</h3>
+          <p>Selected experiments across control theory, optimization, and robotic systems.</p>
+          <a class="text-link" href="work.html">Explore all repositories</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta">
+        <div>
+          <h2 class="section-title">Open to collaborations</h2>
+          <p class="section-subtitle">Let us connect on robotics, control, and applied AI projects.</p>
+        </div>
+        <a class="btn primary" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Copyright <span data-year></span> Banaan Kiamanesh</span>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

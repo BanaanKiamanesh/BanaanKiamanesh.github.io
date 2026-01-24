@@ -1,0 +1,50 @@
+
+Projects and Posts by Banaan Kiamanesh
+
+GitHub repositories (with update dates):
+
+- RL – Updated 19 Jan 2026 – https://github.com/BanaanKiamanesh/RLhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
+- Autonomous Vehicle Control Beginners Guide – Updated 19 Jan 2026 – https://github.com/BanaanKiamanesh/AutonomousVehicleControlBeginnersGuidehttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
+- Thesis – Updated 2 Jan 2026 – https://github.com/BanaanKiamanesh/Thesishttps://github.com/BanaanKiamanesh#:~:text=the%20software%20architectures%20for%20beginners
+- WayPoint – Updated 2 Jan 2026 – https://github.com/BanaanKiamanesh/WayPointhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
+- MVector – Updated 19 Nov 2025 – https://github.com/BanaanKiamanesh/MVectorhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
+- ManiDyn – Updated 30 Nov 2025 – https://github.com/BanaanKiamanesh/ManiDynhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222025,06T09%3A08%3A07Z%22%2C%20%22git_url%22%3A%20%22git%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FManiDyn.git
+- Minimum‑Grad – Updated 24 Aug 2025 – https://github.com/BanaanKiamanesh/Minimum-Gradhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- Kinova‑Gen3‑Control – Updated 7 Aug 2025 – https://github.com/BanaanKiamanesh/Kinova-Gen3-Controlhttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20Minimum,Public
+- Flocking – Updated 21 Oct 2025 – https://github.com/BanaanKiamanesh/Flockinghttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
+- JigSaw‑OpenCV – Updated 31 Aug 2025 – https://github.com/BanaanKiamanesh/JigSaw-OpenCVhttps://github.com/BanaanKiamanesh#:~:text=%2A%20,Public
+- Optimization4ML – Updated 25 Aug 2025 – https://github.com/BanaanKiamanesh/Optimization4MLhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
+- Anti‑Windup‑PID‑Controller – Updated 7 Oct 2025 – https://github.com/BanaanKiamanesh/Anti-Windup-PID-Controllerhttps://api.github.com/repos/BanaanKiamanesh/Anti-Windup-PID-Controller#:~:text=%22created_at%22%3A%20%222021
+- BNO055‑RaspberryPi – Updated 23 Mar 2025 – https://github.com/BanaanKiamanesh/BNO055-RaspberryPihttps://api.github.com/repos/BanaanKiamanesh/BNO055-RaspberryPi#:~:text=%22created_at%22%3A%20%222021,25T16%3A44%3A59Z
+- BBO‑python – Updated 3 May 2023 – https://github.com/BanaanKiamanesh/BBO-pythonhttps://api.github.com/repos/BanaanKiamanesh/BBO-python#:~:text=%22created_at%22%3A%20%222021,18T05%3A59%3A35Z
+- Arduino‑NRF24L01‑Based‑Radio‑PCB – Updated 3 May 2023 – https://github.com/BanaanKiamanesh/Arduino-NRF24L01-Based-Radio-PCBhttps://api.github.com/repos/BanaanKiamanesh/Arduino-NRF24L01-Based-Radio-PCB#:~:text=%22created_at%22%3A%20%222021,09T22%3A54%3A22Z
+- Manual‑Rpeak‑Selection‑Plotter – Updated 3 May 2023 – https://github.com/BanaanKiamanesh/Manual-Rpeak-Selection-Plotterhttps://api.github.com/repos/BanaanKiamanesh/Manual-Rpeak-Selection-Plotter#:~:text=%22created_at%22%3A%20%222021,29T15%3A27%3A17Z
+- Optimization‑Alzheimer‑Disease‑Detector – Updated 18 Apr 2025 – https://github.com/BanaanKiamanesh/Optimized-Alzheimer-Disease-Detectorhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222021,Alzheimer
+- Optimized‑Epilepsy‑Seizure‑Detection – Updated 18 Apr 2025 – https://github.com/BanaanKiamanesh/Optimized-Epilepsy-Seizure-Detectionhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222021,Seizure
+- Distributed‑Localization – Updated 29 Mar 2025 – https://github.com/BanaanKiamanesh/Distributed-Localizationhttps://github.com/BanaanKiamanesh#:~:text=Python%20%204%20%20,137%20Updated%20Apr%2022%2C%202025
+- Dynamical‑Flow – Updated 5 Apr 2025 – https://github.com/BanaanKiamanesh/Dynamical-Flowhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
+- Pose‑Ordered‑Tello – Updated 10 Jun 2025 – https://github.com/BanaanKiamanesh/Pose-Ordered-Tellohttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22https%3A%2F%2Fapi.github.com%2Frepos%2FBanaanKiamanesh%2FPose,22T19%3A32%3A45Z
+- Self‑and‑Event‑Triggered‑Control – Updated 22 Oct 2025 – https://github.com/BanaanKiamanesh/Self-and-Event-Triggered-Controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222025,18T18%3A14%3A19Z
+- SIS‑Param‑Estim – Updated 16 Jun 2025 – https://github.com/BanaanKiamanesh/SIS-Param-Estimhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- Shilling – Updated 16 Jul 2025 – https://github.com/BanaanKiamanesh/Shillinghttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- Course‑Materials – Updated 22 May 2024 – https://github.com/BanaanKiamanesh/Course-Materialshttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20SMC,Public
+- DS‑Algo‑101 – Updated 17 Sep 2024 – https://github.com/BanaanKiamanesh/DS-Algo-101https://github.com/BanaanKiamanesh#:~:text=MATLAB%20%205%20%20,140%20Updated%20Apr%2018%2C%202025
+- SMC‑Bible – Updated 17 Aug 2024 – https://github.com/BanaanKiamanesh/SMC-Biblehttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- NN‑Obs‑Id‑MIMO‑Nonlinear‑Systems – Updated 9 Aug 2024 – https://github.com/BanaanKiamanesh/NN-Obs-Id-MIMO-Nonlinear-Systemshttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20DS,Public
+- Ultimate‑BCI‑Design – Updated 23 Nov 2023 – https://github.com/BanaanKiamanesh/Ultimate-BCI-Designhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- SSVEP‑Blink‑LED – Updated 3 Oct 2023 – https://github.com/BanaanKiamanesh/SSVEP-Blink-LEDhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- Icarus – Updated 18 Aug 2023 – https://github.com/BanaanKiamanesh/Icarushttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
+- Mass‑Spring‑Damper‑ID‑Control – Updated 12 Jan 2023 – https://github.com/BanaanKiamanesh/Mass-Spring-Damper-ID-Controlhttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20SSVEP,Public
+- PCA9685‑Raspberrypi – Updated 25 Sep 2025 – https://github.com/BanaanKiamanesh/PCA9685-Raspberrypihttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22languages_url%22%3A%20%22https%3A%2F%2Fapi.github.com%2Frepos%2FBanaanKiamanesh%2FPCA9685
+- Image‑Messenger – Updated 3 May 2023 – https://github.com/BanaanKiamanesh/Image-Messengerhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222021,Messenger
+- Evo‑Copter – Updated 13 Jan 2024 – https://github.com/BanaanKiamanesh/Evo-Copterhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22created_at%22%3A%20%222021,Copter.git
+- DL‑for‑Navigation – Updated 23 Aug 2022 – https://github.com/BanaanKiamanesh/DL-for-Navigationhttps://github.com/BanaanKiamanesh#:~:text=There%20was%20an%20error%20while,Please%20reload%20this%20page
+- Raspi‑Kapta – Updated 26 Jul 2022 – https://github.com/BanaanKiamanesh/Raspi-Kaptahttps://github.com/BanaanKiamanesh#:~:text=%2A%20%23%23%23%20%20%20PCA9685,Public
+- IMU‑Activity‑Detection – Updated 15 Apr 2022 – https://github.com/BanaanKiamanesh/IMU-Activity-Detectionhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+- MandelBulb – Updated 17 Mar 2022 – https://github.com/BanaanKiamanesh/MandelBulbhttps://github.com/BanaanKiamanesh#:~:text=Uh%20oh%21
+
+LinkedIn posts/projects:
+
+- Self‑Triggered and Event‑Triggered Control research post (approximately 9 months before 23 Jan 2026 ≈ Apr 2025).  The post explains event‑triggered control strategies and links to a GitHub repository that implements the methodshttps://www.linkedin.com/posts/banaankiamanesh_controltheory-matlab-dynamicalsystems-activity-7319071464098328576-rWEt#:~:text=9mo%20%20Edited.  Link to post: https://www.linkedin.com/posts/banaan%20kiamanesh_event-triggered-control-self-triggered-control_…
+- Card‑Pole System Controller and Observer design post (about 1 year before 23 Jan 2026 ≈ Jan 2025).  Banaan uses MATLAB and symbolic tools to design state‑feedback controllers and observers for a MIMO card‑pole systemhttps://www.linkedin.com/posts/banaankiamanesh_nonlineardynamics-matlab-controlsystems-activity-7186282956418621440-w2YT#:~:text=MATLAB%20is%20a%20brilliant%20tool,observerdesign.  Link to post: https://www.linkedin.com/posts/banaan%20kiamanesh_cart-pole-system-controller-observer-design_…
+

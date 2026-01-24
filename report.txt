@@ -1,0 +1,191 @@
+
+# Banaan Kiamanesh – GitHub Repositories and LinkedIn Analysis
+
+## GitHub repositories
+
+Below is a consolidated list of all public repositories under **Banaan Kiamanesh**’s GitHub account.  For each project I provide the repository link and a short paragraph summarising what it does, its intent and key technologies.
+
+### Anti‑Windup‑PID‑Controller
+- **Link** – https://github.com/BanaanKiamanesh/Anti-Windup-PID-Controller  
+- **Summary** – A small C++ library implementing an **anti‑windup PID controller**.  Anti‑windup techniques prevent integrator windup when actuators saturate.  The library offers a configurable controller that can be integrated into embedded projects such as flight controllers or robotics applicationshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,.  It is useful for hobbyists needing a lightweight PID implementation that handles saturation gracefully.
+
+### Arduino‑NRF24L01‑Based‑Radio‑PCB
+- **Link** – https://github.com/BanaanKiamanesh/Arduino-NRF24L01-Based-Radio-PCB  
+- **Summary** – Provides **Gerber files and schematics** for building a low‑cost radio transmitter/receiver using an **Arduino** and **NRF24L01** transceiver modules.  The design targets drone or RC applications and is complemented by software examples.  It aims to help makers fabricate a custom radio PCB using KiCad and quickly deploy a reliable wireless linkhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22name%22%3A%20%22Arduino,nRF24L01%20Based%20Transmitter%22%2C%20%22fork%22%3A%20false.
+
+### AutonomousVehicleControlBeginnersGuide
+- **Link** – https://github.com/BanaanKiamanesh/AutonomousVehicleControlBeginnersGuide  
+- **Summary** – A collection of **Python** examples and notes that teach basic algorithms used in autonomous vehicles.  The repository explores localisation (e.g., EKF/UKF/PF), mapping and SLAM, path‑planning, path‑tracking, and perception.  Each topic includes simulation code and explanatory comments, making the repo suitable for students wanting a hands‑on introduction to self‑driving car controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,the%20software%20architectures%20for%20beginners.
+
+### BBO‑python
+- **Link** – https://github.com/BanaanKiamanesh/BBO-python  
+- **Summary** – Implements the **Biogeography‑Based Optimisation** (BBO) algorithm in Python.  BBO is a population‑based meta‑heuristic inspired by the distribution of species on islands.  This repo gives a clear implementation and small examples so users can apply BBO to optimisation problemshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FBBO,Based%20Optimization%20Algorithm.
+
+### BNO055‑RaspberryPi
+- **Link** – https://github.com/BanaanKiamanesh/BNO055-RaspberryPi  
+- **Summary** – A **C++** library for the Bosch **BNO055** nine‑axis inertial measurement unit (IMU) on the Raspberry Pi using the **WiringPi** library.  It provides functions for sensor initialisation, calibration and reading fused orientation/acceleration datahttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FBNO055,Pi%20Library%21%22%2C%20%22fork%22%3A%20false.  The repo helps robotics projects needing accurate attitude estimation.
+
+### Course‑Materials
+- **Link** – https://github.com/BanaanKiamanesh/Course-Materials  
+- **Summary** – Hosts materials for courses taught or taken by Banaan Kiamanesh.  It includes lecture slides, assignments and example code covering topics in control systems, robotics and programming.  Students can follow along and reproduce the demonstrationshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FCourse,false.
+
+### Distributed‑Localization
+- **Link** – https://github.com/BanaanKiamanesh/Distributed-Localization  
+- **Summary** – Implements algorithms from the MIT technical report “Anchor‑Free Distributed Localization in Sensor Networks.”  The code demonstrates **anchor‑free localisation** using only inter‑sensor distance measurements and highlights why global localisation is ill‑posed without anchorshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FDistributed,Distribute%20Localization%20of%20Sensor%20Networks.  It is mainly written in MATLAB.
+
+### DL‑for‑Navigation
+- **Link** – https://github.com/BanaanKiamanesh/DL-for-Navigation  
+- **Summary** – A project exploring how **regression models** can replace non‑linear filters for state estimation in navigation tasks.  It uses inertial measurement data to train neural networks that approximate state estimators.  The repo includes data and scripts for training and evaluationhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FDL,false.
+
+### DS‑Algo‑101
+- **Link** – https://github.com/BanaanKiamanesh/DS-Algo-101  
+- **Summary** – Contains simple implementations of common **data‑structures and algorithms** such as linked lists, trees, sorting and searching.  The goal is educational—showing how each structure works internallyhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,Algorithms%20Just%20for%20Learning%20Purposes.
+
+### Dynamical‑Flow
+- **Link** – https://github.com/BanaanKiamanesh/Dynamical-Flow  
+- **Summary** – Demonstrates a dynamical‑systems approach to tasks normally solved algebraically.  Inspired by recent research, it shows how dynamical flows can **sort lists, diagonalise matrices and solve linear programmes** by shaping vector fields to steer trajectories towards solutionshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FDynamical,false.
+
+### Evo‑Copter
+- **Link** – https://github.com/BanaanKiamanesh/Evo-Copter  
+- **Summary** – A quadcopter project based on a Raspberry Pi with a flight controller tuned using the **Bio‑Geography‑Based Optimisation** algorithm.  It aims to investigate whether evolutionary optimisation can automate PID tuning for aggressive flighthttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,computation%20happening%20onboard%20the%20vehicle.
+
+### Flocking
+- **Link** – https://github.com/BanaanKiamanesh/Flocking  
+- **Summary** – Implements flocking behaviours using both the **Olfati–Saber** algorithm and classic **Boids** rules.  The code simulates how multiple agents can achieve emergent cohesive motion using local interactionshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,false.
+
+### Icarus
+- **Link** – https://github.com/BanaanKiamanesh/Icarus  
+- **Summary** – A comprehensive MATLAB project accompanying Banaan’s **Bachelor’s thesis**.  It derives and implements the **6‑DoF dynamics** of a quadcopter, designs **linear PID** and **non‑linear sliding‑mode** controllers, and explores learning‑based strategies for performing flipshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,Plus%20there%20are%20Flips.  The repo includes simulation scripts, plots and a thesis report.
+
+### Image‑Messenger
+- **Link** – https://github.com/BanaanKiamanesh/Image-Messenger  
+- **Summary** – Explores **steganography** by hiding text messages inside images.  The code demonstrates embedding and extraction of messages using simple least‑significant‑bit techniqueshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FImage,false.
+
+### IMU‑Activity‑Detection
+- **Link** – https://github.com/BanaanKiamanesh/IMU-Activity-Detection  
+- **Summary** – Uses inertial sensor data to classify human activities.  The repository supplies datasets, feature‑extraction scripts and machine‑learning models to distinguish different motions such as walking, running or sittinghttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FIMU,false.
+
+### JigSaw‑OpenCV
+- **Link** – https://github.com/BanaanKiamanesh/JigSaw-OpenCV  
+- **Summary** – A computer‑vision project that solves simple jigsaw puzzles.  By detecting puzzle‑piece shapes and using contour matching, it assembles the pieces into the original picturehttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FJigSaw,computer%20vision%20coursework.
+
+### Kinova‑Gen3‑Control
+- **Link** – https://github.com/BanaanKiamanesh/Kinova-Gen3-Control  
+- **Summary** – Supplies a MATLAB/Simulink framework for controlling the **Kinova Gen3** 7‑DoF manipulator.  It computes the robot dynamics via the author’s **ManiDyn** toolbox and implements controllers ranging from PD with gravity compensation to sliding‑mode and robust inverse‑dynamics controlhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FKinova,Gen3%20Manipulator.
+
+### MandelBulb
+- **Link** – https://github.com/BanaanKiamanesh/MandelBulb  
+- **Summary** – Generates and plots the 3D Mandelbulb fractal.  The code numerically constructs the fractal point cloud and renders it, providing an introduction to fractal geometry in MATLABhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,false.
+
+### ManiDyn
+- **Link** – https://github.com/BanaanKiamanesh/ManiDyn  
+- **Summary** – A MATLAB toolbox that performs **symbolic modelling of serial‑link manipulators**.  It uses symbolic computation to derive dynamic equations such as inertia matrices and Coriolis terms, and it supports code generation for controllershttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,link%20robot%20Manipulators.%22%2C%20%22fork%22%3A%20false.  ManiDyn is used in the Kinova‑Gen3‑Control project.
+
+### Manual‑Rpeak‑Selection‑Plotter
+- **Link** – https://github.com/BanaanKiamanesh/Manual-Rpeak-Selection-Plotter  
+- **Summary** – Assists in manually selecting R‑peaks in ECG signals.  The script divides a signal into segments, plots them for visual inspection and records manually chosen peak positionshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FManual,Then%20Saves%20it.  Useful for validating automatic peak detectors.
+
+### Mass‑Spring‑Damper‑ID‑Control
+- **Link** – https://github.com/BanaanKiamanesh/Mass-Spring-Damper-ID-Control  
+- **Summary** – Studies a mass–spring–damper oscillator.  It performs **system identification** using minimum variance unbiased estimators and designs **PID controllers**, including intelligent techniques, to regulate the systemhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FMass,Industrial%20Control%20Systems%20Course%20Project.  Aimed at students learning modelling, estimation and control.
+
+### Minimum‑Grad
+- **Link** – https://github.com/BanaanKiamanesh/Minimum-Grad  
+- **Summary** – A tiny **autodifferentiation framework** built in pure MATLAB as an educational tool.  Inspired by micrograd and teenygrad, it includes a tensor engine, common activation functions and simple optimisershttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FMinimum,pytorch%20implemented%20in%20pure%20MATLAB.  It helps users understand how back‑propagation works under the hood.
+
+### MVector
+- **Link** – https://github.com/BanaanKiamanesh/MVector  
+- **Summary** – A MATLAB implementation of the **PVector** class from the Processing framework, generated by AI.  It provides vector operations useful for graphics and simulation taskshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,from%20Processing%20Frameworks.
+
+### NN‑Obs‑Id‑MIMO‑Nonlinear‑Systems
+- **Link** – https://github.com/BanaanKiamanesh/NN-Obs-Id-MIMO-Nonlinear-Systems  
+- **Summary** – Implements a **recurrent neural‑network‑based observer and identifier** for nonlinear dynamical systems.  Using the Lorenz attractor as a test case, it illustrates how RNNs can simultaneously estimate states and unknown parameters in multiple‑input multiple‑output systemshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FNN,Attractor%20as%20a%20test%20case.
+
+### Optimization4ML
+- **Link** – https://github.com/BanaanKiamanesh/Optimization4ML  
+- **Summary** – A visual demonstration comparing different **numerical optimisation algorithms** for machine‑learning tasks.  It plots the convergence behaviour of methods like gradient descent, Newton’s method and quasi‑Newton approacheshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,Numeric%20Optimization%20Methods%20for%20ML.
+
+### PCA9685‑Raspberrypi
+- **Link** – https://github.com/BanaanKiamanesh/PCA9685-Raspberrypi  
+- **Summary** – Provides a library to drive the **PCA9685 PWM module** with a Raspberry Pi via WiringPi.  It simplifies controlling multiple motors or LEDs through a single I²C interface and includes calibration routineshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FPCA9685,false.
+
+### Pose‑Ordered‑Tello
+- **Link** – https://github.com/BanaanKiamanesh/Pose-Ordered-Tello  
+- **Summary** – A project from a mechatronics class that controls a **DJI Tello drone** based on human body pose estimated with computer vision.  It integrates MediaPipe pose estimation with a PID controller to command the drone’s motionhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FPose,Mechatronic%20Class%20Project.
+
+### Random‑Dot‑Madness
+- **Link** – https://github.com/BanaanKiamanesh/Random-Dot-Madness  
+- **Summary** – Generates fractal patterns such as the **Sierpinski triangle, carpet, pentagon and pyramid** using random dot algorithms.  The MATLAB code visualises how chaotic iteration can produce beautiful self‑similar structureshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,Triangle%2C%20Carpet%2C%20Pentagon%20and%20Pyramid.
+
+### Raspi‑Kapta
+- **Link** – https://github.com/BanaanKiamanesh/Raspi-Kapta  
+- **Summary** – A modular **flight‑controller platform** based on Raspberry Pi.  It reads inputs via an Arduino receiver module, fuses attitude using a BNO055 IMU, drives motors through a PCA9685 and implements an **anti‑windup PID** controller.  The project includes calibration tools and test scriptshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FRaspi,false.
+
+### RL
+- **Link** – https://github.com/BanaanKiamanesh/RL  
+- **Summary** – An educational repository accompanying a reinforcement‑learning course at the University of Padova.  It contains MATLAB code implementing classic RL algorithms and examples, aiming to teach the fundamentals of RLhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,false.
+
+### Self‑and‑Event‑Triggered‑Control
+- **Link** – https://github.com/BanaanKiamanesh/Self-and-Event-Triggered-Control  
+- **Summary** – Explores **self‑triggered** and **event‑triggered** control strategies.  The MATLAB code implements two research papers summarised in the README and shows how triggering conditions can reduce actuation and communication requirements while maintaining stabilityhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSelf,2%20papers%20in%20the%20readme.
+
+### Shilling
+- **Link** – https://github.com/BanaanKiamanesh/Shilling  
+- **Summary** – Implements **28 Runge‑Kutta‑based fixed‑step ODE solvers** in MATLAB.  It offers a collection of integrators for stiff and non‑stiff systems and serves as a numerical analysis referencehttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,step%20ODE%20solvers%20in%20MATLAB.
+
+### SIS‑Param‑Estim
+- **Link** – https://github.com/BanaanKiamanesh/SIS-Param-Estim  
+- **Summary** – Contains implementations of **Markov‑Chain Monte‑Carlo** and the **Extended Kalman Filter** applied to **Susceptible–Infected–Susceptible (SIS) epidemic models**.  It demonstrates parameter estimation for epidemiological systemshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSIS,Filter%20on%20SIS%20Epidemic%20Models.
+
+### SLC‑Radio
+- **Link** – https://github.com/BanaanKiamanesh/SLC-Radio  
+- **Summary** – Designs a **super‑low‑cost radio transmitter/receiver** system using both **Arduino** and **Processing 3**.  Intended for drones and RC vehicles, it includes hardware schematics, a Processing‑based ground‑station GUI, and code for NRF24L01 communicationhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22description%22%3A%20%22This%20is%20a%20Super,DRONES%20and%20basically%20RC%20everything.
+
+### SMC‑Bible
+- **Link** – https://github.com/BanaanKiamanesh/SMC-Bible  
+- **Summary** – Implements many problems from the **Sliding Mode Control** chapter of Slotine & Li’s *Applied Nonlinear Control*.  The MATLAB scripts provide worked examples of reaching laws, switching surfaces and robustness analysishttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSMC,Linear%20Control%20by%20JJE%20Slotine.
+
+### SOSTOOLS (fork)
+- **Link** – https://github.com/BanaanKiamanesh/SOSTOOLS  
+- **Summary** – A fork of the **SOSTOOLS** MATLAB toolbox, which is used to formulate and solve **sums‑of‑squares optimisation** problems.  The toolbox transforms polynomial inequalities into semidefinite programmes and interfaces with solvershttps://api.github.com/repos/BanaanKiamanesh/SOSTOOLS#:~:text=,SOS%29%20optimization%20programs.  This repository mainly mirrors the upstream project.
+
+### SSVEP‑Blink‑LED
+- **Link** – https://github.com/BanaanKiamanesh/SSVEP-Blink-LED  
+- **Summary** – Provides a simple circuit design and scripts for **steady‑state visually evoked potential (SSVEP) stimulation**.  The circuit uses programmable LED blinkers to create flicker at desired frequencies for brain‑computer‑interface experimentshttps://api.github.com/repos/BanaanKiamanesh/SSVEP-Blink-LED#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSSVEP,of%20LEDs%20and%20Desired%20Frequencies.
+
+### Thesis
+- **Link** – https://github.com/BanaanKiamanesh/Thesis  
+- **Summary** – A comprehensive repository implementing everything taught in the **Robotics and Control 2** course at the University of Padova.  It includes assignments, code examples and experiments summarising the course materialhttps://api.github.com/repos/BanaanKiamanesh/Thesis#:~:text=,university%20of%20Padova%2C%20Nov%202025.
+
+### Ultimate‑BCI‑Design
+- **Link** – https://github.com/BanaanKiamanesh/Ultimate-BCI-Design  
+- **Summary** – Collects implementations of **classic brain‑computer‑interface algorithms** in MATLAB, such as common spatial patterns, filter bank methods and classification pipelineshttps://api.github.com/repos/BanaanKiamanesh/Ultimate-BCI-Design#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FUltimate,false.
+
+### WayPoint
+- **Link** – https://github.com/BanaanKiamanesh/WayPoint  
+- **Summary** – A **browser‑based waypoint mission planner** for DJI drones.  Built with JavaScript, it allows users to design and download waypoint missions for the DJI Fly application in a lightweight web interfacehttps://api.github.com/repos/BanaanKiamanesh/WayPoint#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FWayPoint%22%2C%20%22description%22%3A%20%22Free%20browser,false.
+
+### Optimized Alzheimer Disease Detector
+- **Link** – https://github.com/BanaanKiamanesh/Optimized-Alzheimer-Disease-Detector  
+- **Summary** – Uses optimisation algorithms to perform **feature selection** for Alzheimer‑disease detection from EEG data.  It evaluates K‑nearest‑neighbour, linear discriminant analysis and decision‑tree classifiers, and accelerates the computations using MATLAB’s parallel computing toolboxhttps://api.github.com/repos/BanaanKiamanesh/Optimized-Alzheimer-Disease-Detector#:~:text=Disease,Accelerated%20With%20Parallel%20Programming%20ToolBox.
+
+### Optimized Epilepsy Seizure Detection
+- **Link** – https://github.com/BanaanKiamanesh/Optimized-Epilepsy-Seizure-Detection  
+- **Summary** – Similar to the Alzheimer project but focused on **epilepsy seizure detection**.  It applies optimisation‑based feature selection to EEG signals and tests KNN, LDA and decision‑tree classifiers, accelerated with MATLAB’s parallel toolboxhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FOptimized,.
+
+## LinkedIn profile analysis
+
+Although LinkedIn pages are largely behind an authentication wall, publicly visible information and cross‑posted material provide a picture of **Banaan Kiamanesh**’s professional identity:
+
+- **Professional identity** – Kiamanesh presents himself as a **control‑systems engineer and junior roboticist**, highlighting his interests in **robotics, AI, data science and neuroscience**.  This identity aligns with his GitHub bio (where he calls himself a control systems engineer and maker) and research‑oriented GitHub repositories.
+
+- **Academic and teaching background** – External profiles indicate he is pursuing an **MSc in Electrical Engineering (Control) at the University of Padova** and has taught courses in **MATLAB and Python**.  A Persian bio from Maktabkhooneh describes him as an MSc student whose main interests are robotics and AI; it notes his experience with flying robots (quadcopters), neuroscience projects and teaching programminghttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,Plus%20there%20are%20Flips.
+
+- **LinkedIn projects and posts** – Public post previews (available via search results and other platforms) show that he shares projects combining control theory, robotics and visualisation.  Examples include:
+  - A **mass–spring–damper system identification and PID design** project, where he simulated a two‑mass‑spring system, estimated parameters and tuned controllers.  This post corresponds to his GitHub repository `Mass‑Spring‑Damper‑ID‑Control`, which contains MATLAB scripts for system identification and PID designhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FMass,Industrial%20Control%20Systems%20Course%20Project.
+  - Posts about **neurotechnology and brain‑computer interfaces (BCI)**, including participation in a BCI training programme and showing prototypes of SSVEP LED stimulators.  These are linked to his `Ultimate‑BCI‑Design` and `SSVEP‑Blink‑LED` repositorieshttps://api.github.com/repos/BanaanKiamanesh/SSVEP-Blink-LED#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSSVEP,of%20LEDs%20and%20Desired%20Frequencies.
+  - A demonstration of **robot‑arm inverse kinematics** implemented in Java, indicating his interest in cross‑platform robotics development.  His repository `Kinova‑Gen3‑Control` shows similar manipulator control workhttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FKinova,Gen3%20Manipulator.
+  - Visualisations of **sliding‑mode control** laws and fractal graphics such as the **Mandelbulb**.  These subjects match his `SMC‑Bible` and `MandelBulb` repositorieshttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=,falsehttps://api.github.com/users/BanaanKiamanesh/repos#:~:text=%22html_url%22%3A%20%22https%3A%2F%2Fgithub.com%2FBanaanKiamanesh%2FSMC,Linear%20Control%20by%20JJE%20Slotine.
+  - A post about using MATLAB/C++ to generate a 3‑D **Mandelbulb point cloud** and render it as a rotating video, reflecting his interest in combining numerical computation and visual art.
+
+Taken together, Kiamanesh’s LinkedIn presence appears to amplify his GitHub work: he shares progress on academic projects, posts tutorial‑style explanations of control algorithms, and highlights his ventures into neuro‑science and fractal art.  The recurring themes across LinkedIn posts—control theory, robotics, optimisation, brain‑computer interfaces and creative mathematical visualisation—mirror his diverse GitHub portfolio, indicating a strong commitment to both research and public dissemination of technical projects.
