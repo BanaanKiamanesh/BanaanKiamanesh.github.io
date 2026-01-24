@@ -145,10 +145,24 @@ if (projectGrid) {
           .replace(/</g, "&lt;")
           .replace(/>/g, "&gt;");
         const withBold = escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-        return withBold.replace(
+        const withLinks = withBold.replace(
           /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
           '<a href="$2" target="_blank" rel="noreferrer" class="inline-link">$1</a>'
         );
+        return withLinks.replace(/\n/g, "<br />");
+      };
+
+      const renderHtmlDetails = (text) => {
+        const safe = String(text);
+        if (/<table\b/i.test(safe)) {
+          return safe;
+        }
+        const withBold = safe.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+        const withLinks = withBold.replace(
+          /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+          '<a href="$2" target="_blank" rel="noreferrer" class="inline-link">$1</a>'
+        );
+        return withLinks.replace(/\n/g, "<br />");
       };
 
       const buildImages = (images, className) => {
@@ -215,9 +229,13 @@ if (projectGrid) {
             }
 
             (section.details || []).forEach((paragraph) => {
-              const p = document.createElement("p");
+            const p = document.createElement("p");
+            if (data.htmlDetails) {
+              p.innerHTML = renderHtmlDetails(paragraph);
+            } else {
               p.innerHTML = renderParagraph(paragraph);
-              column.appendChild(p);
+            }
+            column.appendChild(p);
             });
 
             return column;
@@ -252,7 +270,11 @@ if (projectGrid) {
 
           (data.details || []).forEach((paragraph) => {
             const p = document.createElement("p");
-            p.innerHTML = renderParagraph(paragraph);
+            if (data.htmlDetails) {
+              p.innerHTML = renderHtmlDetails(paragraph);
+            } else {
+              p.innerHTML = renderParagraph(paragraph);
+            }
             left.appendChild(p);
           });
 
@@ -314,7 +336,11 @@ if (projectGrid) {
 
             (data.details || []).forEach((paragraph) => {
               const p = document.createElement("p");
-              p.innerHTML = renderParagraph(paragraph);
+              if (data.htmlDetails) {
+                p.innerHTML = renderHtmlDetails(paragraph);
+              } else {
+                p.innerHTML = renderParagraph(paragraph);
+              }
               left.appendChild(p);
             });
 
@@ -332,7 +358,11 @@ if (projectGrid) {
           } else {
             (data.details || []).forEach((paragraph) => {
               const p = document.createElement("p");
-              p.innerHTML = renderParagraph(paragraph);
+              if (data.htmlDetails) {
+                p.innerHTML = renderHtmlDetails(paragraph);
+              } else {
+                p.innerHTML = renderParagraph(paragraph);
+              }
               modalBody.appendChild(p);
             });
           }

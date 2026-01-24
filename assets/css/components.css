@@ -488,7 +488,33 @@ body.nav-open .menu-icon::after {
 
 .modal-body p {
   margin: 0 0 var(--space-3);
-  white-space: pre-wrap;
+  white-space: normal;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-3) 0 var(--space-5);
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  background: var(--surface-muted);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.data-table code {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
 }
 
 .modal-dual__intro {
