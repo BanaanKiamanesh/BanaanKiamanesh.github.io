@@ -486,6 +486,15 @@ body.nav-open .menu-icon::after {
   margin-bottom: var(--space-4);
 }
 
+.modal-body--embed-full {
+  margin-bottom: 0;
+}
+
+.modal-embed--full {
+  height: calc(100vh - 220px);
+  min-height: 520px;
+}
+
 .modal-body p {
   margin: 0 0 var(--space-3);
   white-space: normal;
@@ -642,6 +651,13 @@ body.nav-open .menu-icon::after {
   margin-top: var(--space-5);
   display: grid;
   gap: var(--space-4);
+}
+
+.modal-embed-label {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .modal-left {

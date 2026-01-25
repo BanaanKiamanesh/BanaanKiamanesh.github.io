@@ -188,7 +188,18 @@ if (projectGrid) {
 
       if (modalBody) {
         modalBody.innerHTML = "";
-        if (data.dual) {
+        modalBody.classList.remove("modal-body--embed-full");
+        if (data.embedFull && data.embed && data.embed.src) {
+          modalBody.classList.add("modal-body--embed-full");
+          const frame = document.createElement("iframe");
+          frame.className = "modal-embed modal-embed--full";
+          frame.src = data.embed.src;
+          frame.title = data.embed.title || "Embedded content";
+          frame.loading = "lazy";
+          frame.allowFullscreen = true;
+          frame.referrerPolicy = "no-referrer";
+          modalBody.appendChild(frame);
+        } else if (data.dual) {
           const layout = document.createElement("div");
           layout.className = "modal-dual";
 
@@ -281,40 +292,34 @@ if (projectGrid) {
           const right = document.createElement("div");
           right.className = "modal-right";
 
-          const frame = document.createElement("iframe");
-          frame.className = "modal-embed";
-          frame.src = data.embed.src;
-          frame.title = data.embed.title || "Embedded content";
-          frame.loading = "lazy";
-          frame.allowFullscreen = true;
-          frame.referrerPolicy = "no-referrer";
-          right.appendChild(frame);
+          const addEmbed = (container, embed) => {
+            if (!embed || !embed.src) {
+              return;
+            }
+            if (embed.title) {
+              const label = document.createElement("p");
+              label.className = "modal-embed-label";
+              label.textContent = embed.title;
+              container.appendChild(label);
+            }
+            const frame = document.createElement("iframe");
+            frame.className = "modal-embed";
+            frame.src = embed.src;
+            frame.title = embed.title || "Embedded content";
+            frame.loading = "lazy";
+            frame.allowFullscreen = true;
+            frame.referrerPolicy = "no-referrer";
+            container.appendChild(frame);
+          };
+
+          addEmbed(right, data.embed);
 
           layout.appendChild(left);
           layout.appendChild(right);
           modalBody.appendChild(layout);
 
           const extraEmbeds = Array.isArray(data.extraEmbeds) ? data.extraEmbeds : [];
-          if (extraEmbeds.length > 0) {
-            const wrap = document.createElement("div");
-            wrap.className = "modal-extra-embeds";
-            extraEmbeds.forEach((embed) => {
-              if (!embed || !embed.src) {
-                return;
-              }
-              const frame = document.createElement("iframe");
-              frame.className = "modal-embed";
-              frame.src = embed.src;
-              frame.title = embed.title || "Embedded content";
-              frame.loading = "lazy";
-              frame.allowFullscreen = true;
-              frame.referrerPolicy = "no-referrer";
-              wrap.appendChild(frame);
-            });
-            if (wrap.children.length > 0) {
-              modalBody.appendChild(wrap);
-            }
-          }
+          extraEmbeds.forEach((embed) => addEmbed(right, embed));
         } else {
           const imageList = data.images || (data.image ? [data.image] : []);
           if (imageList.length > 0 && data.imagePlacement === "inline") {
