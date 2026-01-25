@@ -154,7 +154,7 @@ if (projectGrid) {
 
       const renderHtmlDetails = (text) => {
         const safe = String(text);
-        if (/<table\b/i.test(safe)) {
+        if (/<(table|div|img|section|h4|ul|ol|li|p)\b/i.test(safe)) {
           return safe;
         }
         const withBold = safe.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");

@@ -21,10 +21,7 @@ body {
   font-family: var(--font-sans);
   color: var(--text);
   background-color: var(--bg);
-  background-image:
-    radial-gradient(1200px 600px at 10% -10%, rgba(155, 92, 255, 0.18), transparent 60%),
-    radial-gradient(1000px 700px at 90% 0%, rgba(185, 139, 255, 0.12), transparent 60%),
-    linear-gradient(180deg, #140f22 0%, #0f0b1a 100%);
+  background-image: none;
   line-height: 1.6;
 }
 

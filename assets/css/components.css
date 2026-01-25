@@ -38,6 +38,19 @@
   font-size: 0.9rem;
 }
 
+.nav .nav-cv {
+  padding: 0.45rem 1.1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.nav .nav-cv:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 .menu-toggle {
   display: none;
   align-items: center;
@@ -96,19 +109,23 @@ body.nav-open .menu-icon::after {
   letter-spacing: 0.2em;
   font-size: 0.7rem;
   color: var(--accent);
-  margin-bottom: var(--space-2);
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
 }
 
 .hero-title,
 .page-title {
   font-size: clamp(2.2rem, 4vw, 3.5rem);
   letter-spacing: -0.02em;
+  margin-bottom: -0.08rem;
+  line-height: 1;
 }
 
 .lead {
   font-size: 1.05rem;
   color: var(--muted);
   max-width: 58ch;
+  margin-top: var(--space-3);
 }
 
 .cta-row {
@@ -170,7 +187,7 @@ body.nav-open .menu-icon::after {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
-  min-width: 90px;
+  min-width: 120px;
 }
 
 .photo-card {
@@ -186,9 +203,11 @@ body.nav-open .menu-icon::after {
 }
 
 .photo-note {
-  margin: var(--space-2) 0 0;
+  margin: var(--space-1) 0 0;
   color: var(--muted);
   font-size: 0.9rem;
+  padding: 0 var(--space-3);
+  text-align: center;
 }
 
 .section-title {
@@ -381,6 +400,10 @@ body.nav-open .menu-icon::after {
   overflow-x: visible;
 }
 
+.panel .tag {
+  font-size: 0.95rem;
+}
+
 .project-card .tag-row {
   min-height: 1.6rem;
   flex-wrap: nowrap;
@@ -524,6 +547,48 @@ body.nav-open .menu-icon::after {
 .data-table code {
   font-family: var(--font-mono);
   font-size: 0.85rem;
+}
+
+.phase-image {
+  width: 100%;
+}
+
+.phase-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: start;
+  margin: var(--space-4) 0;
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+
+.phase-section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.phase-text h4 {
+  margin: 0 0 var(--space-2);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.phase-text p {
+  margin: 0;
+}
+
+.phase-media .modal-image {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .phase-section {
+    grid-template-columns: 1fr;
+  }
 }
 
 .modal-dual__intro {
