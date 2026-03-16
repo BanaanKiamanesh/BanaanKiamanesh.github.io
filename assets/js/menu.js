@@ -27,6 +27,11 @@ export function initMenu() {
     }
   });
 
+  // Handle close buttons (like the overlay)
+  document.querySelectorAll("[data-menu-close]").forEach((el) => {
+    el.addEventListener("click", closeMenu);
+  });
+
   panel.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       closeMenu();

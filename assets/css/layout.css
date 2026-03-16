@@ -27,12 +27,32 @@
 }
 
 .nav-panel {
-  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(320px, 85vw);
+  display: flex;
   flex-direction: column;
-  gap: var(--space-3);
-  padding: var(--space-4) var(--space-5);
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-5);
+  background: var(--header);
+  backdrop-filter: blur(20px);
+  border-left: 1px solid var(--border);
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.nav-panel:not([hidden]) {
+  transform: translateX(0);
+}
+
+.nav-panel[hidden] {
+  display: flex; /* Maintain flex for transition but keep hidden for accessibility/initial state */
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .hero {
