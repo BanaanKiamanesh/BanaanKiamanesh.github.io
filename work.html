@@ -82,6 +82,20 @@
     <section class="section">
       <div class="container">
         <div class="card-grid project-grid">
+          <article class="card project-card" data-tags="control" data-updated="2026-06-23">
+            <div class="project-header">
+              <h3>Dual IMU Sensor Fusion AHRS</h3>
+              <span class="project-date">Jun 2026</span>
+            </div>
+            <p class="project-summary">MATLAB and Python framework for quaternion attitude estimation with
+              single- and dual-IMU sensor fusion.</p>
+            <div class="tag-row"><span class="tag" data-tag="control">Control Theory</span></div>
+            <div class="project-actions">
+              <button class="project-open" type="button">View details</button>
+            </div>
+            <script type="application/json"
+              class="project-data">{"title": "Dual IMU Sensor Fusion AHRS", "year": "Jun 2026", "tags": [{"id": "control", "label": "Control Theory"}], "summary": "MATLAB and Python framework for quaternion attitude estimation with single- and dual-IMU sensor fusion.", "details": ["**Project Overview**\nDual IMU Sensor Fusion AHRS is a simulation and validation framework for attitude estimation with single- and dual-IMU MARG configurations. It generates known reference motion, applies configurable gyroscope, accelerometer, and magnetometer errors, then evaluates quaternion-based estimators under identical sensor conditions.", "**Fusion and Estimation Pipeline**\n- **Dual IMU fusion:** Two independent sensor models are combined using inverse-variance weighting.\n- **Attitude estimators:** Additive EKF, minimal error-state ESKF/MEKF, and Mahony AHRS.\n- **Sensor realism:** White noise, bias, bias instability, scale-factor error, saturation, and quantization.\n- **Evaluation:** Single-run studies, 50-run Monte Carlo comparisons, metrics, plots, and report export.", "**MATLAB and Python Implementations**\nThe original MATLAB framework is accompanied by a faithful NumPy port that reproduces the published Monte Carlo results within sampling error. The Python version also introduces a 6-state multiplicative ESKF with analytic Jacobians and adaptive accelerometer covariance, improving computational speed and robustness during non-gravitational acceleration.", "**Validated Results**\n- **Dual IMU EKF:** 0.085° roll, 0.072° pitch, and 0.178° yaw RMSE across the 50-run Python validation.\n- **Improved dual ESKF:** 0.080° roll, 0.066° pitch, and 0.172° yaw RMSE, with approximately 2.8× faster execution than the original EKF.\n- **Disturbance robustness:** Adaptive covariance reduces mean roll-and-pitch RMSE by 62% during a transient linear-acceleration burst.", "**Technical Stack**\n- MATLAB and Python/NumPy\n- Quaternion kinematics, EKF, ESKF/MEKF, and Mahony AHRS\n- Monte Carlo simulation, sensor-error modelling, and adaptive covariance"], "links": [{"label": "GitHub", "url": "https://github.com/BanaanKiamanesh/Dual_IMU_SF"}, {"label": "Report", "url": "https://github.com/BanaanKiamanesh/Dual_IMU_SF/blob/main/Report.pdf"}], "images": [{"src": "assets/images/project_thumbnails/dual_imu_mc_rmse.png", "alt": "Monte Carlo attitude RMSE comparison for single- and dual-IMU filters"}, {"src": "assets/images/project_thumbnails/dual_imu_attitude_error.png", "alt": "Dual-IMU ESKF attitude error over a 30-second simulation"}, {"src": "assets/images/project_thumbnails/dual_imu_robustness.png", "alt": "EKF and ESKF robustness comparison during transient linear acceleration"}]}</script>
+          </article>
           <article class="card project-card" data-tags="aerial-robotics" data-updated="2026-01-01">
             <div class="project-header">
               <h3>WayPoint</h3>
