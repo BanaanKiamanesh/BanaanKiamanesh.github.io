@@ -2,6 +2,39 @@ import { initMenu } from "./menu.js";
 
 initMenu();
 
+const MATHJAX_SRC = "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js";
+let mathJaxReady = null;
+
+// MathJax is large, so it is only fetched the first time a modal contains LaTeX.
+const typesetMath = (element) => {
+  if (!/\$|\\\(|\\\[/.test(element.textContent)) {
+    return;
+  }
+  if (!mathJaxReady) {
+    window.MathJax = {
+      tex: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+      },
+      svg: { fontCache: "global" },
+      startup: { typeset: false },
+    };
+    mathJaxReady = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = MATHJAX_SRC;
+      script.async = true;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.appendChild(script);
+    }).then(() => window.MathJax.startup.promise);
+  }
+  mathJaxReady
+    .then(() => window.MathJax.typesetPromise([element]))
+    .catch(() => {
+      mathJaxReady = null;
+    });
+};
+
 const year = document.querySelector("[data-year]");
 if (year) {
   year.textContent = new Date().getFullYear();
@@ -372,9 +405,7 @@ if (projectGrid) {
             });
           }
         }
-        if (window.MathJax && window.MathJax.typesetPromise) {
-          window.MathJax.typesetPromise([modalBody]).catch(() => {});
-        }
+        typesetMath(modalBody);
       }
 
       if (modalLinks) {
